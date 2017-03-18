@@ -25,14 +25,14 @@ RSpec.configure do |config|
   # triggering implicit auto-inclusion in groups with matching metadata.
   config.shared_context_metadata_behavior = :apply_to_host_groups
 
-  # # Run Chrome unless the driver is on Travis CI.
-  # unless ENV['TRAVIS']
-  #   # Configure Capybara to use Selenium.
-  #   Capybara.register_driver :selenium do |app|
-  #     # Configure selenium to use Chrome.
-  #     Capybara::Selenium::Driver.new(app, :browser => :chrome)
-  #   end
-  # end
+  # Run Chrome unless the driver is on Travis CI.
+  unless ENV['TRAVIS']
+    # Configure Capybara to use Selenium.
+    Capybara.register_driver :selenium do |app|
+      # Configure selenium to use Chrome.
+      Capybara::Selenium::Driver.new(app, :browser => :chrome)
+    end
+  end
 
   # Configure Capybara to load the website through rack-jekyll.
   # (force_build: true) builds the site before the tests are run,
