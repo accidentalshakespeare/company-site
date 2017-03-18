@@ -3,9 +3,6 @@ rvm:
 - 2.2.0
 cache: bundler
 before_script:
-  - "export DISPLAY=:99.0"
-  - "sh -e /etc/init.d/xvfb start"
-  - sleep 3 # give xvfb some time to start
-script: "xvfb-run -a bundle exec rspec"
-after_script:
-  - ls
+  - bundle exec jekyll serve --detach
+  - sleep 3 # give jekyll some time to start
+script: bundle exec rspec
