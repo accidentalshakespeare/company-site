@@ -8,4 +8,4 @@ before_script:
   - sleep 3 # give xvfb some time to start
 script: "xvfb-run -a bundle exec rspec"
 after_script:
-  - cat _site/index.html
+  - ls
