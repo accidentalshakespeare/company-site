@@ -25,7 +25,7 @@ end
 
 group :development, :test do
   gem "rspec"
-  gem "selenium-webdriver"
+  gem "selenium-webdriver", "~> 2.53.4"
   gem "chromedriver-helper"
   gem "capybara"
   gem "rack-jekyll"
