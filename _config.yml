@@ -34,9 +34,9 @@ exclude:
   - Gemfile.lock
   - spec/
   - vendor
-  
-collections:		
-  productions:		
-  output: true		
-  permalink: /productions/:path/
+
+collections:
+  productions:
+    output: true
+    permalink: /productions/:path/
 
