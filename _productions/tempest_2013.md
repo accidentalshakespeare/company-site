@@ -12,7 +12,6 @@ production:
     bio_url: /company/sherry_legare
   - name: Angeli Primlani
     title: Director
-    bio_url: /company/angeli_primlani
   - name: Adrian Balbontin
     title: Assistant Director
   - name: Cat Cefalu
