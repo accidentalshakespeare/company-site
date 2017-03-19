@@ -1,10 +1,11 @@
 language: ruby
 rvm:
-- 2.2.0
+- 2.2.2
 cache: bundler
-before_script:
-  - bundle exec jekyll serve --detach
-  - export DISPLAY=:99.0
-  - sh -e /etc/init.d/xvfb start
-  - sleep 4 # give jekyll some time to start
-script: xvfb-run -a bundle exec rspec
+script:
+  - bundle exec jekyll build
+after_success: bundle exec s3_website push --force
+# branches:
+#   only:
+#     - master
+#     - live

@@ -9,7 +9,6 @@ synopsis: Anna and Claire have been lovers for years, when Anna becomes the mist
 production:
   - name: Angeli Primlani
     title: Director
-    bio_url: /company/angeli_primlani
   - name: Sherry Legare
     title: Producer
     bio_url: /company/sherry_legare
