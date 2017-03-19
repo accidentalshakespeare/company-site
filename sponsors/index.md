@@ -1,5 +1,5 @@
 ---
-layout: sponsors
+layout: sponsor_show
 sponsors_table: 
  - column1: bob janson
    column2: qwer
