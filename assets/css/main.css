@@ -126,11 +126,13 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: 1.2em;
+    color: #666;
 }
 
 #myFooter a:hover,
 #myFooter a:focus {
     text-decoration: none;
+    color: #000;
 }
 
 #myFooter .social-networks {
