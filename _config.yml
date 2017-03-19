@@ -40,13 +40,10 @@ collections:
   productions:
     output: true
     permalink: /productions/:path/
-  
+    
   opportunities:
     output: true
     permalink: /join_us/:path/
-  # events:
-  #   output: true
-  #   permalink: /events/:path/
 
   upcoming:
   reviews:
