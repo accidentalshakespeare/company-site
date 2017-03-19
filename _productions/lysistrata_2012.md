@@ -19,7 +19,7 @@ cast:
   role: Lampito/Chorus
 - actor: Sherry Legare
   role: Theban Woman/Defector/Door Keeper/Chorus
-  actor_bio_url:
+  actor_bio_url: /company/sherry_legare
 - actor: Julia Kessler
   role: Kalonike
   actor_bio_url: /company/julia_kessler
