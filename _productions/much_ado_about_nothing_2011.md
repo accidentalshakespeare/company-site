@@ -3,6 +3,9 @@ layout: production
 title: Much Ado About Nothing (staged reading) - William Shakespeare
 dates: September 25, 2011
 location: Tiztal Café
+
+synopsis: Benedict and Beatrice hate each other, or are they secretly in love?  It’s a battle of the sexes comedy set in Messina, Italy, that’s Mardi Gras, carnival festival themed.
+
 production:
   - name: Margaretta Sacco
     title: Director

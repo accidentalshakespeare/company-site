@@ -4,6 +4,8 @@ title: Macbeth (staged reading)
 dates: June 11, 2011
 location: Titzal Café, Chicago
 
+synopsis: One of Shakespeare's greatest plays, Macbeth tells the story of the treacherous rise and bloody fall of the King of Scotland. Informed by a trio of witches that he is destined to become King, Macbeth and his wife go to greater and greater lengths to attain and to hold onto this goal.
+
 production:
   - name: Margaretta Sacco
     title: Director

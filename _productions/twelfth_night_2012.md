@@ -4,8 +4,30 @@ title: Twelfth Night - William Shakespeare
 
 dates: June 22 to June 24, 2012
 location: Act One Studios - Chicago
-director: Laura Sturm
-director_bio_url: http://accidentalshakespeare.com/about/company/laura_sturm
+
+synopsis: Twins Viola and Sebastian are separated at shipwreck and land on Illyria. Viola disguises herself as a boy and falls into a love triangle among Duke Orsino and Olivia. Sebastian is rescued by Antonio who loves him fiercely. This comedy has drunken revelries and mistaken identities set during the rock and roll 1950s.
+production:
+  - name: Laura Sturm
+    title: Director
+    bio_url: http://accidentalshakespeare.com/about/company/laura_sturm
+  - name: David Hathway
+    title: Assistant Director/Musical Director
+    bio_url: http://accidentalshakespeare.com/about/company/david_hathway
+  - name: Angeli Primlani
+    title: Stage Manager
+    bio_url: http://accidentalshakespeare.com/about/company/angeli_primlani
+  - name: Mike Evans, Ryan Swikle, Angeli Primlani, David Hathway
+    title: Musicians
+  - name: Gary Henderson
+    title: Fight Choreographer
+    bio_url: http://accidentalshakespeare.com/about/company/gary_henderson
+  - name: Jim Campbell
+    title: Front of House
+    bio_url: http://accidentalshakespeare.com/about/company/jim_campbell
+  - name: Julia Kessler/Sherry Legare
+    title: Catering
+  - name: Ben Aldred/Ryan Simmons
+    title: Marketing
 
 cast:
 - actor: Julia Kessler

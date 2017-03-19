@@ -3,6 +3,9 @@ layout: production
 title: Boston Marriage - David Mamet
 dates: February 11 - February 20, 2016
 location: Berger Park Coach House, Chicago
+
+synopsis: Anna and Claire have been lovers for years, when Anna becomes the mistress of a wealthy man in order to support them both. But of course it is nowhere near that simple. What does fidelity mean when one's romantic partnership can barely be imagined as real? Does money distort women's sexual and personal integrity? Is chintz a sign of love or a form of psychological torture? Must we always hurt the ones we love? And what about ... the maid?
+
 production:
   - name: Angeli Primlani
     title: Director

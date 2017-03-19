@@ -3,10 +3,49 @@ layout: production
 title: The Tempest
 dates: February 16 - March 3, 2013
 location: The Heartland Studio, Chicago
-synopsis: The Tempest is often thought of as a show about endings. It is one of Shakespeare’s last plays and it does deal  with  mortality  and  loss  of  power.  But  it  is  also  a  show  about  beginnings,  the  kind  that  you only get by shucking off the burden of the past and finding freedom in the future. This Alchemy Punk version came about after the founders of The Accidental Shakespeare Company took in a showing of Julie Taymor’s film version of the play
-director: Sherry Legare
 
-director_bio_url: http://accidentalshakespeare.com/about/company/sherry_legare
+synopsis: The Tempest is often thought of as a show about endings. It is one of Shakespeare’s last plays and it does deal  with  mortality  and  loss  of  power.  But  it  is  also  a  show  about  beginnings,  the  kind  that  you only get by shucking off the burden of the past and finding freedom in the future. This Alchemy Punk version came about after the founders of The Accidental Shakespeare Company took in a showing of Julie Taymor’s film version of the play.
+
+production:
+  - name: Sherry Legare
+    title: Producer
+    bio_url: http://accidentalshakespeare.com/about/company/sherry_legare
+  - name: Angeli Primlani
+    title: Director
+    bio_url: http://accidentalshakespeare.com/about/company/angeli_primlani
+  - name: Adrian Balbontin
+    title: Assistant Director
+    bio_url: http://accidentalshakespeare.com/about/company/adrian_balbontin
+  - name: Cat Cefalu
+    title: Stage Manager
+    bio_url: http://accidentalshakespeare.com/about/company/cat_cefalu
+  - name: Patrick Ham
+    title: Scenic Design
+    bio_url: http://accidentalshakespeare.com/about/company/patrick_ham
+  - name: Kate Setzer Kamphausen
+    title: Costume Design
+    bio_url: http://accidentalshakespeare.com/about/company/kate_setzer_kamphausen
+  - name: Margaretta Sacco
+    title: Properties Design
+    bio_url: http://accidentalshakespeare.com/about/company/margaretta_sacco
+  - name: Benjamin Dionysus
+    title: Lighting Design
+    bio_url: http://accidentalshakespeare.com/about/company/benjamin_dionysus
+  - name: Ashly Dalene
+    title: Movement Design
+    bio_url: http://accidentalshakespeare.com/about/company/ashly_dalene
+  - name: Melissa Schlesinger
+    title: Sound Design/Score
+    bio_url: http://accidentalshakespeare.com/about/company/melissa_schlesinger
+  - name: Patrick Van Howe
+    title: Scenic Artist
+    bio_url: http://accidentalshakespeare.com/about/company/patrick_van_howe
+  - name: John Amedio
+    title: Marketing
+    bio_url: http://accidentalshakespeare.com/about/company/sherry_legare
+  - name: Jimmy Neenan
+    title: Set Crew
+    bio_url: http://accidentalshakespeare.com/about/company/jimmy_neenan
 
 cast:
 - actor: John Amedio
