@@ -1,0 +1,11 @@
+<div id="current-sponsors-container">
+        <a class="current"></a>
+        <h3>Thanks to our Current Sponsors</h3>
+        <div id="current-sponsors-list">
+            <ul>
+                {% for sponsor in site.sponsors %}
+                <li>{{sponsor.name}}</li>
+                {% endfor %}
+            </ul>
+        </div>
+</div>
