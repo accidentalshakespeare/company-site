@@ -12,13 +12,19 @@ layout: default
 </div>
 <div id="staff-list">
     {% for staff in page.other-staff %}
-        <img src={{staff.image-path}} alt={{staff.name}}></img>
-        {% if staff.bio-url %}
-            <h3><a href="{{staff.bio-url}}">{{staff.name}}</a></h2>
-        {% else %}
-            <h3>{{staff.name}}</h2>
-        {% endif %}
-        <p>{{staff.title}}</p>
+    <div class="row">
+        <div class="people-img col-sm-7">
+            <img class="" src={{staff.image-path}} alt={{staff.name}}></img>
+        </div>
+        <div class="col-sm-5">
+            {% if staff.bio-url %}
+                <h3><a href="{{staff.bio-url}}">{{staff.name}}</a></h2>
+            {% else %}
+                <h3>{{staff.name}}</h2>
+            {% endif %}
+            <p>{{staff.title}}</p>
+        </div>
+    </div>
     {% endfor %}
 </div>
 <div id="artist-list">
