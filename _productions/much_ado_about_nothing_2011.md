@@ -24,7 +24,6 @@ cast:
   actor_bio_url: /company/benjamin_dionysus
 - actor: Angeli Primlani
   role: Balthasar/Messenger/Margaret
-  actor_bio_url: /company/angeli_primlani
 - actor: John Amedio
   role: Leonardo/Conrade
 - actor: Jamie Black
