@@ -1,7 +1,8 @@
-<!-- THIS IS A SAMPLE TEMPLATE
+<!-- THIS IS A TEMPLATE
 --- 
 layout: join_us
 title: Bake Sale Breakfast
+type: volunteer
 dates: May 21, 2017
 location: Jim's Donuts, Chicago
 volunteers:
@@ -11,5 +12,5 @@ volunteers:
   - name: Darlene
     phone: 605-212-5556
     hours_working: 7-9
----
+--- 
 -->

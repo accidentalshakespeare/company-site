@@ -1,4 +1,4 @@
-<!-- THIS IS A SAMPLE TEMPLATE
+<!-- THIS IS A TEMPLATE
 ---
 layout: join_us
 title: Best Ever Shakespeare Company Auditions
@@ -12,5 +12,5 @@ open_roles:
     attributes: dreamy, crybaby
   - name: tybalt
     attributes: rugged, funny
---- 
--->
+---
+ -->

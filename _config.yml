@@ -40,7 +40,6 @@ collections:
   productions:
     output: true
     permalink: /productions/:path/
-    
   opportunities:
     output: true
     permalink: /join_us/:path/

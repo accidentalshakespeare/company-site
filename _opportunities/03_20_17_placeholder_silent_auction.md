@@ -1,4 +1,4 @@
-<!-- THIS IS A SAMPLE TEMPLATE
+<!-- THIS IS A TEMPLATE
 --- 
 layout: join_us
 title: Crazy Nerdery OWC Silent Auction
@@ -14,5 +14,5 @@ items_donated:
     item: Dog Leash
     attributes: Keeps dog from running away
     value: $7
----
+--- 
 -->
