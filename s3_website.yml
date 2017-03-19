@@ -3,7 +3,7 @@ s3_secret: <%= ENV['S3_SECRET_KEY'] %>
 <% if ENV['TRAVIS_BRANCH'] == 'production' %>
 s3_bucket: accshakes
 cloudfront_distribution_id: E3XOZ9MFX2H6O
-<% elsif ENV['TRAVIS_BRANCH'] == 'master' %>
+<% elsif ENV['TRAVIS_BRANCH'] == 's3-deploy-yaml' %>
 s3_bucket: stagingshakes
 <% else %>
 <% end %>
