@@ -28,5 +28,4 @@ cast:
   role: Spartan Ambassador/Messenger/Chorus
 - actor: John Amedio
   role: Athenian Commissioner/Chorus
-
 ---
