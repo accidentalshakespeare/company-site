@@ -15,12 +15,10 @@ cast:
     actor_bio_url: http://accidentalshakespeare.com/about/company/chris_aruffo
   - actor: Taylor Galloway
     role: Henza, and others
-    actor_bio_url: http://accidentalshakespeare.com/about/company/taylor_galloway
   - actor: Gary Henderson
     role: Albrecht
   - actor: Robert Kaercher
     role: Forrester
-    actor_bio_url: http://accidentalshakespeare.com/about/company/robert_kaercher
   - actor: Julia Kessler
     role: Kathi
     actor_bio_url: http://accidentalshakespeare.com/about/company/julia_kessler
