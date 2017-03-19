@@ -8,4 +8,4 @@ after_success: bundle exec s3_website push --force
 # branches:
 #   only:
 #     - master
-#     - production
+#     - live
