@@ -1,0 +1,35 @@
+---
+layout: default
+---
+  <div class="production-posts">
+      <div class="production-post spacing">
+        <h1>{{ page.title }}</h1>
+          <b><span class="date">
+            {{ page.dates }} | {{page.location}}
+          </span></b>
+        </p>
+        {{ page.synopsis }}
+        <h3>Production Team:</h3>
+        <ul>
+        {% for production in page.production %}
+          {% if production.bio_url %}
+            <li>{{production.title}}: <a href="{{production.bio_url}}">{{production.name}}</a></li>
+          {% else %}
+            <li>{{production.title}}: {{production.name}}</li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+        <h4>Cast:</h4>
+        <ul>
+        {% for cast in page.cast %}
+          {% if cast.actor_bio_url %}
+            <li><a href="{{cast.actor_bio_url}}">{{cast.actor}}</a> as {{cast.role}}</li>
+          {% else %}
+            <li>{{cast.actor}} as {{cast.role}}</li>
+          {% endif %}
+        {% endfor %}
+        </ul>
+      </div>
+  </div>
+
+{{content}}
