@@ -1,0 +1,9 @@
+<h2>Reviews and Testimonials</h2>
+<ul> 
+    {% for review in site.reviews %}
+    <li>
+        <h3>{{ review.name }}</h3>
+        <p>{{ review.text }}</p>
+    </li> 
+    {% endfor %}
+</ul>

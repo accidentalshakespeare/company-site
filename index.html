@@ -1,3 +1,25 @@
 ---
 layout: default
+permalink: "/"
 ---
+<div class="mission-statement">
+    <h2>Our Mission</h2>
+    <p>Accidental Shakespeare is an ensemble theater company that thoughtfully explores challenging plays, to forge connections between classical themes and contemporary culture in intimate settings.</p>
+    <!-- need to decide where Get Involved links to -->
+    <form action="/join" class="button">
+        <input type="submit" value="Get Involved" />
+    </form>
+</div>
+<div class="upcoming-events">
+    {% include upcoming.html %}
+</div>
+<div class="reviews">
+    {% include reviews.html %}
+</div>
+<div class="sponsors">
+    {% include current_sponsors.html %}
+    <form action="/sponsors" class="button">
+        <input type="submit" value="Become A Sponsor" />
+    </form>
+</div>
+
