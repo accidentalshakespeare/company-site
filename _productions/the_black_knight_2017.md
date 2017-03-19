@@ -7,7 +7,6 @@ synopsis: A love story between a Jewish spy and SS Captain of the Intelligence D
 production:
   - name: Angeli Primlani
     title: Director
-    bio_url: /company/angeli_primlani
 
 cast:
   - actor: Chris Aruffo

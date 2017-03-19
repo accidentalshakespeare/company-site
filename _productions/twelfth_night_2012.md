@@ -13,7 +13,6 @@ production:
     title: Assistant Director/Musical Director
   - name: Angeli Primlani
     title: Stage Manager
-    bio_url: /company/angeli_primlani
   - name: Mike Evans, Ryan Swikle, Angeli Primlani, David Hathway
     title: Musicians
   - name: Gary Henderson
