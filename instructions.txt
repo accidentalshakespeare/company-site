@@ -1,0 +1,36 @@
+Adding a new "past production"
+  1. In company-site/_productions:
+    Create a new document with the naming convention: production_name_YYYY.md
+  2. Open up the new file that you just created
+  3. Copy/paste this into the new document that you just created:
+  
+---
+layout: production   
+title:  
+dates: 
+location: 
+synopsis:
+ 
+production:  
+- name:      
+  title:
+  bio_url:
+- name:      
+  title:
+  bio_url:
+
+cast:
+- actor:     
+  role:    
+  actor_bio_url:
+- actor:     
+  role:    
+  actor_bio_url:
+
+images: 
+- url:
+---
+        
+  4. You will need a name, title, bio_url for each member of the production crew AND you will need an actor, role, actor_bio_url for each actor in the performance (if a given person does not have personal bio page, you can remove that key all together)
+  5. If you need a visual example of how this should look, you can open up a file that already exists for a different past performance. Make sure the information you plugged into your new file matches the formatting of the other .md files in _performances.
+  6. You're done!
