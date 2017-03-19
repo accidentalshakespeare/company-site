@@ -17,7 +17,7 @@ cast:
     role: Lady Macbeth
   - actor: Angeli Primlani
     role: Second Witch, Ross, Siward, Seyton
-    actor_bio_url: http://accidentalshakespeare.com/about/company/angeli_primlani
+    actor_bio_url: /company/angeli_primlani
   - actor: Jamie Black
     role: Third Murderer, Duncan, Old Man, Porter, Apparition
   - actor: Christa Sablic
@@ -28,7 +28,7 @@ cast:
     role: Third Witch, Macduff, Captain, Gentlewoman
   - actor: Julia Kessler
     role: First Witch, Malcolm, Lady Macduff, Doctor
-    actor_bio_url: http://accidentalshakespeare.com/about/company/julia_kessler
+    actor_bio_url: /company/julia_kessler
 
 images:
   - url: /assets/images/Macbeth_flier.pdf

@@ -5,6 +5,28 @@
   border: none !important;
 }
 
+.container {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+}
+
+.donate-button, .donate-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.donate-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.donate-button-recur {
+  margin-top: 20px;
+  margin-left: 50%;
+}
+
 .logo {
   display: absolute;
   z-index: 1;
@@ -187,8 +209,8 @@ body {
     text-align: center;
 }
 
-#newsletter-email {
+.newsletter-input {
     width: 120px;
-    margin: 0 auto;
+    margin: 4px auto;
 }
 

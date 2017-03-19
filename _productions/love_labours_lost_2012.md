@@ -13,7 +13,7 @@ production:
 cast:
 - actor: Julia Kessler
   role: Princess
-  actor_bio_url: http://accidentalshakespeare.com/about/company/julia_kessler
+  actor_bio_url: /company/julia_kessler
 - actor: Jared McDaris
   role: Don Armando
 - actor: Kelly Lynn Hogan

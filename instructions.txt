@@ -1,0 +1,58 @@
+ Instructions on adding new information to the site
+
+ Prerequisites
+ 	1. Have Ruby 2.3.3p222 or later installed on your computer
+ 	2. Have Jekyll 3.4.2 or later
+ 		-If you don't have jekyll, run 'gem install jekyll' in a bash shell/terminal to download the necessary dependencies.
+ 	3. Have Bundler 1.14.6
+ 	  -If you don't have bundler, run 'gem install bundler' in a bash shell or terminal to download the necessary dependencies.
+
+ Adding new featured members/guest artists/board members
+ 	 1. In company-site/about.md:
+ 	    1a. Find the list of information that you wish to change(main-staff, other-staff, guest-artists, or board-members)
+ 	 2. Copy and paste that list's recurring fields (ex. guest-artists only have name and title fields) at the bottom of the respective list.
+ 	 3. Fill in your respective information in the corresponding blanks (image-path refers to the path in company-site for the image you're trying to associate with that entry and 'bio-url' refers to the url of that person's bio, if they have one.). If no information applies for a given field, leave it blank.
+ 	 4. Repeat for however many people you need to add.
+
+ Adding new sponsors
+ 	 1. In company-site/sponsors:
+ 	 2. Scroll to the bottom of the "sponsors" list
+ 	 3. Add the name of the new sponsor just like how the other items in the list appear.
+ 	 4. Repeat for however many people you need to add.
+
+ Adding a new "past production"
+   1. In company-site/_productions:
+     Create a new document with the naming convention: production_name_YYYY.md
+   2. Open up the new file that you just created
+   3. Copy/paste this into the new document that you just created:
+   
+ ---
+ layout: production   
+ title:  
+ dates: 
+ location: 
+ synopsis:
+  
+ production:  
+ - name:      
+   title:
+   bio_url:
+ - name:      
+   title:
+   bio_url:
+ 
+ cast:
+ - actor:     
+   role:    
+   actor_bio_url:
+ - actor:     
+   role:    
+   actor_bio_url:
+ 
+ images: 
+ - url:
+ ---
+         
+   4. You will need a name, title, bio_url for each member of the production crew AND you will need an actor, role, actor_bio_url for each actor in the performance (if a given person does not have personal bio page, you can remove that key all together)
+   5. If you need a visual example of how this should look, you can open up a file that already exists for a different past performance. Make sure the information you plugged into your new file matches the formatting of the other .md files in _performances.
+   6. You're done!

@@ -11,7 +11,7 @@ production:
 cast:
 - actor: Angeli Primlani
   role: Lysistrata
-  actor_bio_url: http://accidentalshakespeare.com/about/company/angeli_primlani
+  actor_bio_url: /company/angeli_primlani
 - actor: Michael Rashid
   role: Kinesias
 - actor: Regina Leslie
@@ -20,10 +20,10 @@ cast:
   role: Lampito/Chorus
 - actor: Sherry Legare
   role: Theban Woman/Defector/Door Keeper/Chorus
-  actor_bio_url: http://accidentalshakespeare.com/about/company/sherry_legare
+  actor_bio_url: 
 - actor: Julia Kessler
   role: Kalonike
-  actor_bio_url: http://accidentalshakespeare.com/about/company/julia_kessler
+  actor_bio_url: /company/julia_kessler
 - actor: Jared McDaris
   role: Spartan Ambassador/Messenger/Chorus
 - actor: John Amedio

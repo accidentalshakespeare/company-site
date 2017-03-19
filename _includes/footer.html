@@ -30,9 +30,16 @@
         <h5>Newsletter</h5>
         <form class="form-inline" action="//accidentalshakespeare.us8.list-manage.com/subscribe/post?u=62e153225217fde3b5c71b8f9&amp;id=77a38c823e"
           method="post" name="mc-embedded-subscribe-form" target="_blank">
+				<input id="mce-MMERGE11" type="hidden" name="MMERGE11" value="WEBSITE" />
+
           <div class="field-group">
-            <input id="newsletter-email" class="form-control input-sm" type="email" name="EMAIL" placeholder="enter email" value="" size="35"
-            />
+            <input id="newsletter-email" class="form-control input-sm newsletter-input" type="email" name="EMAIL" placeholder="enter email" value="" size="35"/>
+					</div>
+					<div class="field-group">
+            <input class="form-control input-sm newsletter-input" type="text" name="FNAME" placeholder="first name" value="" size="35"/>
+					</div>
+					<div class="field-group">		
+            <input class="form-control input-sm newsletter-input" type="text" name="LNAME" placeholder="last name" value="" size="35"/>
             <input id="mc-embedded-subscribe" class="btn btn-default" type="submit" name="subscribe" value="Subscribe" />
           </div>
         </form>

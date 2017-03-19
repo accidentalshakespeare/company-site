@@ -1,0 +1,28 @@
+.center {
+	text-align: center;
+	font-size: 65px;
+	font-weight: 600;
+}
+
+.center-under {
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 34px;
+	font-weight: 300
+}
+
+.member-photo {
+	max-height: 350px;
+	max-width: 30%;
+	float: left;
+	padding-right: 30px;
+}
+
+.bio {
+	font-size: 23px;
+}
+
+.body-margin {
+	margin: 0 150px;
+}
+
