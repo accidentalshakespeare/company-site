@@ -29,5 +29,6 @@ cast:
   role: Mariane/Monsieur
 - actor: Elizabeth Rentfro
   role: Madame Pernelle
-
+ images:
+  - url: /assets/images/Tartuff.jpg
 ---

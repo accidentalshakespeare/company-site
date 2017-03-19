@@ -36,6 +36,13 @@ cast:
   actor_bio_url: http://accidentalshakespeare.com/about/company/julia_kessler
 - actor: Eliza Hoffman
   role: Ursula
+
+  images:
+  - url: /assets/images/Much_Ado_fullcast_singing.jpg
+  - url: /assets/images/Much_Ado_JohnAmedio.jpg
+  - url: /assets/images/Much_Ado_JohnAmedio_Ryan.jpg
+  - url: /assets/images/Much_Ado_Julia_Christa_Masks.jpg
+  - url: /assets/images/Much_Ado_Julia_Swikle.jpg
 ---
 
 
