@@ -2,7 +2,7 @@
 layout: production
 title: Twelfth Night - William Shakespeare
 
-dates: June 22 to June 24, 2012
+dates: June 22 - June 24, 2012
 location: Act One Studios - Chicago
 
 synopsis: Twins Viola and Sebastian are separated at shipwreck and land on Illyria. Viola disguises herself as a boy and falls into a love triangle among Duke Orsino and Olivia. Sebastian is rescued by Antonio who loves him fiercely. This comedy has drunken revelries and mistaken identities set during the rock and roll 1950s.
