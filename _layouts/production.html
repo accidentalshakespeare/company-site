@@ -1,15 +1,65 @@
 ---
 layout: default
 ---
+
+<div class="container">
+        <div id="main_area">
+                <!-- Slider -->
+                <div class="row">
+                    <div class="col-xs-12" id="slider">
+                        <!-- Top part of the slider -->
+                        <div class="row">
+                            <div class="col-sm-8" id="carousel-bounding-box">
+                                <div class="carousel slide" id="myCarousel">
+                                    <!-- Carousel items -->
+                                    <div class="carousel-inner">
+                                        {% for image in page.images %}
+                                        {% if forloop.index == 1 %}
+                                        <div class="active item" data-slide-number="{{forloop.index }}">
+                                        {% else %}
+                                        <div class="item" data-slide-number="{{forloop.index }}">
+                                        {% endif %}
+                                        <img src="{{site.url}}/{{image.url}}"></div>
+                                        {% endfor %}
+                                    </div><!-- Carousel nav -->
+                                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>
+                                    </a>
+                                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>
+                                    </a>
+                                    </div>
+                            </div>
+
+                            <div class="col-sm-4" id="carousel-text"></div>
+
+                            <div class="show-info">
+                              <h1>{{ page.title }}</h1>
+                              <b><span class="date">
+                                {{ page.dates }} | {{page.location}}
+                              </span></b>
+                              <h4 class="page-synopsis">{{page.synopsis}}</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/Slider-->
+
+                <div class="row hidden-xs" id="slider-thumbs">
+                        <!-- Bottom switcher of slider -->
+                        <ul class="hide-bullets">
+                          {% for image in page.images %}
+                            <li class="col-sm-2">
+                                <a class="thumbnail" id="carousel-selector-{{forloop.index0}}"><img src="{{site.url}}/{{image.url}}"></a>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                </div>
+        </div>
+</div>
+
   <div class="production-posts">
       <div class="production-post spacing">
-        <h1>{{ page.title }}</h1>
-          <b><span class="date">
-            {{ page.dates }} | {{page.location}}
-          </span></b>
-        </p>
-        {{ page.synopsis }}
-        <h3>Production Team:</h3>
+        <h2>Production Team:</h3>
         <ul>
         {% for production in page.production %}
           {% if production.bio_url %}
@@ -19,7 +69,7 @@ layout: default
           {% endif %}
         {% endfor %}
         </ul>
-        <h4>Cast:</h4>
+        <h2>Cast:</h4>
         <ul>
         {% for cast in page.cast %}
           {% if cast.actor_bio_url %}

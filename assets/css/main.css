@@ -3,6 +3,8 @@
 .navbar {
   background-color: white !important;
   border: none !important;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .container {
@@ -45,8 +47,6 @@
 }
 
 .navbar-links a:hover {
-  font-size: 28px;
-  transition: .6s;
   background-color: white !important;
 }
 
