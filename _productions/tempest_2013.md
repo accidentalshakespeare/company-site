@@ -9,15 +9,15 @@ synopsis: The Tempest is often thought of as a show about endings. It is one of 
 production:
   - name: Sherry Legare
     title: Producer
-    bio_url: http://accidentalshakespeare.com/about/company/sherry_legare
+    bio_url: /company/sherry_legare
   - name: Angeli Primlani
     title: Director
-    bio_url: http://accidentalshakespeare.com/about/company/angeli_primlani
+    bio_url: /company/angeli_primlani
   - name: Adrian Balbontin
     title: Assistant Director
   - name: Cat Cefalu
     title: Stage Manager
-    bio_url: http://accidentalshakespeare.com/about/company/cat_cefalu
+    bio_url: /company/cat_cefalu
   - name: Patrick Ham
     title: Scenic Design
   - name: Kate Setzer Kamphausen
@@ -26,7 +26,7 @@ production:
     title: Properties Design
   - name: Benjamin Dionysus
     title: Lighting Design
-    bio_url: http://accidentalshakespeare.com/about/company/benjamin_dionysus
+    bio_url: /company/benjamin_dionysus
   - name: Ashly Dalene
     title: Movement Design
   - name: Melissa Schlesinger
@@ -45,7 +45,7 @@ cast:
   role: Miranda
 - actor: Christopher Aruffo
   role: Prospero
-  actor_bio_url: http://accidentalshakespeare.com/about/company/chris_aruffo
+  actor_bio_url: /about/company/chris_aruffo
 - actor: Chris Berghoff
   role: Ferdinand
 - actor: Jamel Booth
@@ -56,7 +56,7 @@ cast:
   role: Sebastian
 - actor: Julia Kessler
   role: Gonzalo
-  actor_bio_url: http://accidentalshakespeare.com/about/company/julia_kessler
+  actor_bio_url: /company/julia_kessler
 - actor: Jared McDaris
   role: Ariel
 - actor: Andrew Mehegan

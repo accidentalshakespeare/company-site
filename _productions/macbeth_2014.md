@@ -7,13 +7,13 @@ synopsis: Drawing on her experience as a reporter, and her stint writing for a r
 production:
   - name: Angeli Primlani
     title: Director
-    bio_url: http://accidentalshakespeare.com/about/company/angeli_primlani
+    bio_url: /company/angeli_primlani
   - name: Sherry Legare
     title: Producer
-    bio_url: http://accidentalshakespeare.com/about/company/sherry_legare
+    bio_url: /company/sherry_legare
   - name: Cat Cefalu
     title: Stage Manager
-    bio_url: http://accidentalshakespeare.com/about/company/cat_cefalu
+    bio_url: /company/cat_cefalu
   - name: Caitlin Aruffo
     title: Sound Designer
   - name: Leala Avdich
@@ -26,7 +26,7 @@ production:
     title: Violence Design
   - name: Benjamin Dionysus
     title: Lighting Design
-    bio_url: http://accidentalshakespeare.com/about/company/benjamin_dionysus
+    bio_url: /company/benjamin_dionysus
   - name: Liz Homsy
     title: Technical Director/Production Assistant
   - name: Margaretta Sacco
@@ -45,10 +45,10 @@ cast:
   role: Banquo/Seyton
 - actor: Julia Kessler
   role: Lady Macduff/Gentlewoman/Young Siward
-  actor_bio_url: http://accidentalshakespeare.com/about/company/julia_kessler
+  actor_bio_url: /company/julia_kessler
 - actor: Sherry Legare
   role: Lady Macbeth
-  actor_bio_url: http://accidentalshakespeare.com/about/company/sherry_legare
+  actor_bio_url: /company/sherry_legare
 - actor: Jared McDaris
   role: Duncan/Porter/Old Man/Doctor
 - actor: Andrew Mehegan

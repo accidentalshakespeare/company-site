@@ -21,10 +21,10 @@ cast:
   role: Hero
 - actor: Benjamin Dionysus
   role: Borachio/Friar Francis
-  actor_bio_url: http://accidentalshakespeare.com/about/company/benjamin_dionysus
+  actor_bio_url: /company/benjamin_dionysus
 - actor: Angeli Primlani
   role: Balthasar/Messenger/Margaret
-  actor_bio_url: http://accidentalshakespeare.com/about/company/angeli_primlani
+  actor_bio_url: /company/angeli_primlani
 - actor: John Amedio
   role: Leonardo/Conrade
 - actor: Jamie Black
@@ -33,7 +33,7 @@ cast:
   role: Don John
 - actor: Julia Kessler
   role: Don Pedro/Sexton
-  actor_bio_url: http://accidentalshakespeare.com/about/company/julia_kessler
+  actor_bio_url: /company/julia_kessler
 - actor: Eliza Hoffman
   role: Ursula
 
