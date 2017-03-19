@@ -1,0 +1,37 @@
+#new-sponsor-container {
+	background-color: #666666;
+	margin: auto;
+	padding: 30px 80px;
+	text-align: center;
+
+	color: #EEEEEE;
+}
+
+#new-sponsor-button {
+		color: #111111;
+    text-decoration: none; font: menu;
+    display: inline-block; padding: 8px 8px;
+    background: ButtonFace; color: ButtonText;
+    border-style: solid; border-width: 2px;
+    border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+    border-radius: 4px;
+    margin: 20px 0px 0px 0px;
+}
+
+#current-sponsors-container {
+	text-align: center;
+}
+
+#current-sponsors-list {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#current-sponsors-list li {
+	list-style-type: none;
+  -webkit-flex: none;
+          flex: none;
+  width: 300px;
+  font-size: 16px;
+}

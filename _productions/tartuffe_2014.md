@@ -6,8 +6,8 @@ location: Chief O’Neill’s Pub & Restaurant, Chicago
 synopsis: Accidental Shakespeare Theatre Company performs a staged reading of one of Moliere's best loved -- and most clever -- comedies. Few scoundrels are as roguish, charming or hilarious as the titular Tartuffe, an impostor who insinuates himself into the home of Orgon and his family, quickly throwing the entire household into chaos. As Orgon's infatuation with his guest and his phony piety grows, Tartuffe's deception threatens to turn downright damaging.
 
 production:
-  - name: Margaretta Sacco
-    title: Director
+- name: Margaretta Sacco
+  title: Director
 
 cast:
 - actor: Ben Muller
@@ -29,6 +29,7 @@ cast:
   role: Mariane/Monsieur
 - actor: Elizabeth Rentfro
   role: Madame Pernelle
- images:
+  
+images:
   - url: /assets/images/Tartuff.jpg
 ---
