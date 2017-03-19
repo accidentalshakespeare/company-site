@@ -2,79 +2,87 @@
 layout: default
 title: Donate
 ---
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-6">
+      <div class="one-time-donation">
+        <h2 class="donate-title">Make a One Time Donation </h2>
+        <hr>
+        <form class="donate-button" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="C69YKQAPRZM5G">
+          <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+          <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+      </div>
+    </div>
 
-<div class="one-time-donation">
-  <h2>Make a One Time Donation: </h2>
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-    <input type="hidden" name="cmd" value="_s-xclick">
-    <input type="hidden" name="hosted_button_id" value="C69YKQAPRZM5G">
-    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-  </form>
+    <div class="col-xs-12 col-md-6">
+      <div class="recurring-donation">
+        <h2 class="donate-title">Set up a Recurring Donation </h2>
+        <hr>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_xclick-subscriptions">
+          <input type="hidden" name="business" value="B5W3LY44BRJM8">
+          <input type="hidden" name="lc" value="US">
+          <input type="hidden" name="item_name" value="Set up Recurring Donation">
+          <input type="hidden" name="no_note" value="1">
+          <input type="hidden" name="no_shipping" value="2">
+          <input type="hidden" name="rm" value="1">
+          <input type="hidden" name="return" value="https://www.accidentalshakespeare.com/thankyou">
+          <input type="hidden" name="cancel_return" value="https://www.accidentalshakespeare.com/donate">
+          <input type="hidden" name="src" value="1">
+          <input type="hidden" name="a3" value="1.00">
+          <input type="hidden" name="p3" value="1">
+          <input type="hidden" name="currency_code" value="USD">
+          <input type="hidden" name="bn" value="PP-SubscriptionsBF:btn_subscribeCC_LG.gif:NonHosted">
+          <table>
+            <tr>
+              <td>How many total times would you like this donation to occur? (including this payment)</td>
+            </tr>
+            <tr>
+              <td>
+                <select name="srt">
+                  <option value="0">Never End</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>How often would you like this donation to reoccur?</td>
+            </tr>
+            <tr>
+              <td>
+                <select name="t3">
+                  <option value="D">Daily </option>
+                  <option value="M">Monthly </option>
+                  <option value="Y">Yearly </option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>Enter Your Donation Amount</td>
+            </tr>
+            <tr>
+              <td>
+                <input type="text" name="a3" maxlength="60">
+              </td>
+            </tr>
+          </table>
+          <input class="donate-button-recur" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+          <img class="donate-button-recur" alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+      </div>
+    </div>
+  </div>
 </div>
-
-<div class="recurring-donation">
-  <h2>Set up a Recurring Donation: </h2>
-  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-    <input type="hidden" name="cmd" value="_xclick-subscriptions">
-    <input type="hidden" name="business" value="B5W3LY44BRJM8">
-    <input type="hidden" name="lc" value="US">
-    <input type="hidden" name="item_name" value="Set up Recurring Donation">
-    <input type="hidden" name="no_note" value="1">
-    <input type="hidden" name="no_shipping" value="2">
-    <input type="hidden" name="rm" value="1">
-    <input type="hidden" name="return" value="https://www.accidentalshakespeare.com/thankyou">
-    <input type="hidden" name="cancel_return" value="https://www.accidentalshakespeare.com/donate">
-    <input type="hidden" name="src" value="1">
-    <input type="hidden" name="a3" value="1.00">
-    <input type="hidden" name="p3" value="1">
-    <input type="hidden" name="currency_code" value="USD">
-    <input type="hidden" name="bn" value="PP-SubscriptionsBF:btn_subscribeCC_LG.gif:NonHosted">
-    <table>
-      <tr>
-        <td>How many total times would you like this donation to occur? (including this payment)</td>
-      </tr>
-      <tr>
-        <td>
-          <select name="srt">
-            <option value="0">Never End</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="7">7</option>
-            <option value="8">8</option>
-            <option value="9">9</option>
-            <option value="10">10</option>
-            <option value="11">11</option>
-            <option value="12">12</option>
-          </select>
-        </td>
-      </tr>
-      <tr>
-        <td>How often would you like this donation to reoccur?</td>
-      </tr>
-      <tr>
-        <td>
-          <select name="t3">
-            <option value="D">Daily </option>
-            <option value="M">Monthly </option>
-            <option value="Y">Yearly </option>
-          </select> 
-        </td>
-      </tr>
-      <tr>
-        <td>Enter Your Donation Amount</td>
-      </tr>
-      <tr>
-        <td>
-          <input type="text" name="a3" maxlength="60">
-        </td>
-      </tr>
-    </table>
-    <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-    <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-  </form>
-</div>
-

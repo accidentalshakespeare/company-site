@@ -1,0 +1,104 @@
+/*Navbar*/
+
+.navbar {
+  background-color: white !important;
+  border: none !important;
+}
+
+.container {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+}
+
+.donate-button, .donate-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.donate-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.donate-button-recur {
+  margin-top: 20px;
+  margin-left: 50%;
+}
+
+.logo {
+  display: absolute;
+  z-index: 1;
+  width: 80px;
+  height: 120px;
+  margin-top: -200px;
+  margin-left: 230px;
+}
+
+.navbar-links {
+  font-size: 21px;
+  margin-top: 85px;
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  transition: .4s;
+}
+
+.navbar-links a:hover {
+  font-size: 28px;
+  transition: .6s;
+  background-color: white !important;
+}
+
+.navbar a {
+  color: black !important;
+}
+
+.header-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  font-size: 50px;
+  display: relative;
+
+}
+
+.title {
+  margin-top: 45px;
+}
+
+#menu-button {
+  margin-top: 50px;
+  background-color: black;
+  height: 40px;
+}
+
+.icon-bar {
+  background-color: white;
+}
+
+#bs-navbar-collapse {
+  margin-top: 100px
+}
+
+/*Body*/
+body {
+  background-color: white;
+}
+
+/*Donations*/
+
+
+/*Media Queries*/
+@media(max-width: 767px) and (min-width: 610px){
+  .shakespeare {
+  	margin-top: 20px;
+  	margin-left: -212px;
+  }
+}
+
+@media(max-width: 990px) and (min-width: 767px){
+  #bs-navbar-collapse {
+    margin-top: -50px;
+  	margin-right: 80px;
+  }
+}
