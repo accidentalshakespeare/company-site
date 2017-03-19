@@ -4,30 +4,30 @@ title: About
 main-staff:
   - name: Angeli Primlani
     role: Artistic Director, CoFounder, EMC
-    image-path:
+    image-path: /assets/images/Angeli_Primlani.jpg
     bio-url:
     synopsis: Angeli Primlani has directed several productions for Accidental Shakespeare, such as The Tempest, Overruled and Macbeth. Angeli has worked in regional theaters in the Southeast and in the Czech Republic.  She's also an accomplished writer and a playwright, whose work has been performed in Chicago by Rasaka and Otherworld Theater Company. She received the 3 Arts Ragdale Fellowship in Theater Arts in 2010. Angeli holds a BA in Theatre and English from the University of North Carolina at Chapel Hill anda Masters in Journalism from Northwestern.
   - name: Sherry Legare
     role: Managing Director, CoFounder, SAG-AFTRA, EMC
-    image-path:
+    image-path: /assets/images/Sherry_Legare.jpg
     bio-url:
     synopsis: Sherry Legare has performed as Mrs. Lynnin Overruled, Lady M in Macbeth and Anna in Boston Marriage. Sherry has also performed for Artemisia,Artists’ Ensemble, Halcyon,Two Pence, Muse of Fire,Red Tape, and Spectralia theatres.  Training credits include the Gately-Poole Conservatory, Shakespeare & Company, the Acting Tank, Artistic Home  and Actor’s Movement Studio. Sherry holds a BA in Theatre from the University of Colorado at Boulder.
 other-staff:
   - name: Benjamin Dionysus
     title: Co-Founder, Company Member
-    image-path:
+    image-path: /assets/images/Benjamin_Dionysus.jpg
     bio-url:
   - name: Julia Kessler
     title: Company Member
-    image-path:
+    image-path: /assets/images/Julia_Kessler.jpg
     bio-url:
   - name: Dr. Christopher Aruffo
     title: Artistic Associate
-    image-path:
+    image-path: /assets/images/Chris_Aruffo.jpg
     bio-url:
   - name: Cat Cefalu
     title: Co-Founder, Company Member
-    image-path:
+    image-path: /assets/images/Cat_Cefalu.jpg
     bio-url:
 guest-artists:
   - name: Gary Henderson
