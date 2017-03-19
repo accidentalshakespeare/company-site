@@ -6,7 +6,7 @@ script:
   - bundle exec jekyll build
   - bundle exec htmlproofer ./_site --only-4xx --check-favicon --check-html
 after_success: bundle exec s3_website push
-branches:
-  only:
-    - master
-    - production
+# branches:
+#   only:
+#     - master
+#     - production
