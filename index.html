@@ -6,7 +6,7 @@ permalink: "/"
     <h2>Our Mission</h2>
     <p>Accidental Shakespeare is an ensemble theater company that thoughtfully explores challenging plays, to forge connections between classical themes and contemporary culture in intimate settings.</p>
     <!-- need to decide where Get Involved links to -->
-    <form action="/join">
+    <form action="/join" class="button">
     	<input type="submit" value="Get Involved" />
     </form>
 </div>
@@ -18,5 +18,8 @@ permalink: "/"
 </div>
 <div class="sponsors">
 	{% include current_sponsors.html %}
+	<form action="/sponsors" class="button">
+    	<input type="submit" value="Become A Sponsor" />
+    </form>
 </div>
 
