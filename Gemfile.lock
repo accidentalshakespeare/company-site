@@ -21,8 +21,6 @@ GEM
     colorator (1.1.0)
     diff-lcs (1.3)
     ffi (1.9.18)
-    ffi (1.9.18-x64-mingw32)
-    ffi (1.9.18-x86-mingw32)
     forwardable-extended (2.6.0)
     io-like (0.3.0)
     jekyll (3.4.2)
@@ -56,10 +54,6 @@ GEM
     minima (2.1.0)
       jekyll (~> 3.3)
     nokogiri (1.7.0.1)
-      mini_portile2 (~> 2.1.0)
-    nokogiri (1.7.0.1-x64-mingw32)
-      mini_portile2 (~> 2.1.0)
-    nokogiri (1.7.0.1-x86-mingw32)
       mini_portile2 (~> 2.1.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
@@ -100,19 +94,12 @@ GEM
       rubyzip (~> 1.0)
       websocket (~> 1.0)
     slop (3.6.0)
-    thread_safe (0.3.6)
-    tzinfo (1.2.2)
-      thread_safe (~> 0.1)
-    tzinfo-data (1.2017.1)
-      tzinfo (>= 1.0.0)
     websocket (1.2.4)
     xpath (2.0.0)
       nokogiri (~> 1.3)
 
 PLATFORMS
   ruby
-  x64-mingw32
-  x86-mingw32
 
 DEPENDENCIES
   capybara
