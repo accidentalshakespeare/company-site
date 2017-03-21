@@ -28,8 +28,9 @@
    
  ---
  layout: production   
- title:  
- dates: 
+ title:
+ date:
+ dates_string: 
  location: 
  synopsis:
   
