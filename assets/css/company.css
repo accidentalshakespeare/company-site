@@ -1,0 +1,53 @@
+.center {
+	text-align: center;
+	font-size: 65px;
+	font-weight: 600;
+	margin-top: 10px;	
+}
+
+.center-under {
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 34px;
+	font-weight: 300
+}
+
+.member-photo {
+	max-height: 10%;
+	max-width: 30%;
+	float: left;
+	padding-right: 30px;
+}
+
+.bio {
+	font-size: 23px;
+}
+
+.body-margin {
+	margin: 0 150px;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	.member-photo {
+        margin: 0 100px;
+/*        margin-left: 75px;
+*/        min-width: 80%;
+        min-height: 100%;
+        float: none;
+    }
+
+    .bio {
+        font-size: 45px;
+        margin-top: 20px;
+    }
+    .body-margin {
+        margin: 10px 30px 15px 30px;
+    }
+    .center-under {
+        font-size: 50px;
+    }
+}

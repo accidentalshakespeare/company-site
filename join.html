@@ -1,0 +1,23 @@
+---
+layout: default
+title: Get Involved
+---
+
+<div class="join">
+  <h3>Other Opportunities to {{ page.title }}</h3>
+
+  <span>
+    <p>Accidental Shakespeare welcomes submissions at any time throughout the season.</p>
+    <p>If you'd like to join us in creating future performances, feel free to contact us at <a href="mailto:accshakes@gmail.com?subject=Involvement Opportunity Request">accshakes@gmail.com</a>.</p>
+    <p>When needed, we will also post company audition and job openings to the Theater in Chicago and League of Chicago Theater websites.</p>
+  </span>
+  {% for post in site.opportunities %}
+    <div class="join-opportunities">
+      <h3>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </h3>
+      <span>{{ post.date | date: '%B %d, %Y' }}</span>
+      <span>{{ post.location }}</span>
+    </div>
+  {% endfor %}
+</div>

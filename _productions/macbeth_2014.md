@@ -7,7 +7,6 @@ synopsis: Drawing on her experience as a reporter, and her stint writing for a r
 production:
   - name: Angeli Primlani
     title: Director
-    bio_url: /company/angeli_primlani
   - name: Sherry Legare
     title: Producer
     bio_url: /company/sherry_legare

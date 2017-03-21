@@ -1,8 +1,12 @@
 <h2>Upcoming Events</h2> 
 {% for event in site.upcoming %}
-<div class="upcoming-item">
+  <div class="upcoming-item">
     <!-- <img src=""> -->
     <h3>{{ event.title }}</h3>
-    <p>test</p>
-</div> 
+    {% for tickets in event.tickets %}
+      {% if tickets.code %}
+      <A HREF="http://www.brownpapertickets.com/event/{{ tickets.code }}"><IMG SRC="http://www.brownpapertickets.com/g/6/BPT_buy_tickets_small.png" WIDTH=108px HEIGHT=58px BORDER=0></A>
+      {% endif %}
+    {% endfor %}
+  </div>
 {% endfor %}
