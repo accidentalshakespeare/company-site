@@ -27,6 +27,8 @@
   display: flex;
   flex-wrap: wrap;
   margin: 30px 0px 50px 0px;
+  padding: 0px;
+  justify-content: center;
 }
 
 #current-sponsors-list li {
@@ -36,4 +38,5 @@
   width: 300px;
   font-size: 16px;
   font-weight: bold;
+
 }
