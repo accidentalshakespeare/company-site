@@ -3,10 +3,12 @@ layout: default
 ---
 
 <div class="companies-post">
-    <h1>{{ page.name }}</h1>
-    <h2 class="">{{ page.title }}</h2>
-    <img src="{{ page.photo }}" class="member-photo">
-    <p>{{ page.bio }}</p>
+    <h1 class="center">{{ page.name }}</h1>
+    <h2 class="center-under">{{ page.title }}</h2>
+    <div class="body-margin">
+        <img src="{{ page.photo }}" class="member-photo">
+        <p class="bio">{{ page.bio }}</p>
+    </div>
 </div>
 
 {{content}}

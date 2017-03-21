@@ -1,10 +1,22 @@
 <div id="current-sponsors-container">
+<<<<<<< HEAD
         <a name="current"></a>
         <h2>Thanks to our Current Sponsors</h2>
 				<p>Accidental Shakespeare holds various fundraisers and events throughout the year. These sponsors have been gracious in offering their support.</p>
         <ul id="current-sponsors-list">
             {% for sponsor in page.sponsors %}
-            <li>{{sponsor.name}}</li>
+              <li>{{sponsor.name}}</li>
             {% endfor %}
         </ul>
+=======
+  <a class="current"></a>
+  <h3>Thanks to our Current Sponsors</h3>
+  <div id="current-sponsors-list">
+    <ul>
+    {% for sponsor in page.sponsors %}
+      <li>{{sponsor.name}}</li>
+    {% endfor %}
+    </ul>
+  </div>
+>>>>>>> 1c1a2e84b6bee971de272d7664862e1f30c63695
 </div>

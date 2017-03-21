@@ -80,6 +80,11 @@
   margin-top: 100px
 }
 
+.people-img {
+  width: 450px;
+  height: 350px;
+}
+
 /*Body*/
 body {
   background-color: white;
@@ -102,3 +107,115 @@ body {
   	margin-right: 80px;
   }
 }
+
+#myFooter {
+    padding-top: 30px;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#myFooter .footer-copyright {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 20px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a{
+    font-size: 50px;
+    text-align: center;
+}
+
+#myFooter a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #666;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: #000;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .email:hover {
+    color: #ef1a1a;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+#myFooter .btn {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    /*line-height: 25px;*/
+    font-size: 14px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
+.footerCol {
+    text-align: center;
+}
+
+.newsletter-input {
+    width: 120px;
+    margin: 4px auto;
+}
+
