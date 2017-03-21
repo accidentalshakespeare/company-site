@@ -1,25 +1,21 @@
 ---
-layout: prod-layout
+layout: default
 title: Past Productions
 ---
 
-<div class="production-container">
+<div class="container">
   <h2 class="spacing">{{page.title}}</h2>
+
   <div class="production-posts">
     {% for post in site.productions %}
-      <div class="production-post">
-        <div class="prod-wrap">
-          <a class="prod-url" href="{{post.url}}">
-            {% if post.images.first.url %}
-            <div class="show-prod-block centered-block" style="background: url({{ post.images.first.url }}) no-repeat;">
-            {% else %}
-            <div class="show-prod-block centered-block" style="background: url('{{site.url}}/assets/images/LogoVectors.svg'); background-size: cover;">
-            {% endif %}
-              <h1 class="prod-links">{{post.title}}</h1>
-              <h2 class="prod-links-h2">{{post.dates}}</h2>
-            </div>
-          </a>
-        </div>
+      <div class="production-post spacing">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <span class="date">
+
+            {{ post.dates }}
+
+          </span>
+        {{ post.excerpt }}
       </div>
     {% endfor %}
   </div>
