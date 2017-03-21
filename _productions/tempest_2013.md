@@ -45,7 +45,7 @@ cast:
   role: Miranda
 - actor: Christopher Aruffo
   role: Prospero
-  actor_bio_url: /about/company/chris_aruffo
+  actor_bio_url: /company/chris_aruffo
 - actor: Chris Berghoff
   role: Ferdinand
 - actor: Jamel Booth
