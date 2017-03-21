@@ -73,7 +73,7 @@
 }
 
 .review-title {
-  font-size: 32px;
+  font-size: 26px;
 }
 
 .review-paragraph {
@@ -100,4 +100,8 @@
 .thumbnail {
   margin-top: 20px;
   margin-left: -45px;
+}
+
+#slider-thumbs ul li {
+  padding-right: 60px;
 }

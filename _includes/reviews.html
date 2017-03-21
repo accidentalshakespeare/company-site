@@ -1,8 +1,8 @@
 <ul>
     {% for review in site.reviews %}
     <li class="hide-bullets">
-        <h3 class="review-title">{{ review.name }}</h3>
-        <p class="review-paragraph">{{ review.text }}</p>
+      <p class="review-paragraph">{{ review.text }}</p>
+        <h3 class="review-title">- {{ review.name }}</h3>
     </li>
     {% endfor %}
 </ul>
