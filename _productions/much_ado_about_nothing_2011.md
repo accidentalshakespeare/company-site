@@ -1,7 +1,8 @@
 ---
 layout: production
 title: Much Ado About Nothing (staged reading) - William Shakespeare
-dates: September 25, 2011
+date: 2011-09-25
+dates_string: September 25, 2011
 location: Tiztal Café
 
 synopsis: Benedict and Beatrice hate each other, or are they secretly in love?  It’s a battle of the sexes comedy set in Messina, Italy, that’s Mardi Gras, carnival festival themed.
@@ -24,7 +25,6 @@ cast:
   actor_bio_url: /company/benjamin_dionysus
 - actor: Angeli Primlani
   role: Balthasar/Messenger/Margaret
-  actor_bio_url: /company/angeli_primlani
 - actor: John Amedio
   role: Leonardo/Conrade
 - actor: Jamie Black

@@ -1,7 +1,8 @@
 ---
 layout: production
 title: The Tempest
-dates: February 16 - March 3, 2013
+date: 2013-02-16
+dates_string: February 16 - March 3, 2013
 location: The Heartland Studio, Chicago
 
 synopsis: The Tempest is often thought of as a show about endings. It is one of Shakespeare’s last plays and it does deal  with  mortality  and  loss  of  power.  But  it  is  also  a  show  about  beginnings,  the  kind  that  you only get by shucking off the burden of the past and finding freedom in the future. This Alchemy Punk version came about after the founders of The Accidental Shakespeare Company took in a showing of Julie Taymor’s film version of the play.
@@ -12,7 +13,6 @@ production:
     bio_url: /company/sherry_legare
   - name: Angeli Primlani
     title: Director
-    bio_url: /company/angeli_primlani
   - name: Adrian Balbontin
     title: Assistant Director
   - name: Cat Cefalu
@@ -45,7 +45,7 @@ cast:
   role: Miranda
 - actor: Christopher Aruffo
   role: Prospero
-  actor_bio_url: /about/company/chris_aruffo
+  actor_bio_url: /company/chris_aruffo
 - actor: Chris Berghoff
   role: Ferdinand
 - actor: Jamel Booth

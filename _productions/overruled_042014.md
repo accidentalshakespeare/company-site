@@ -1,12 +1,12 @@
 ---
 layout: production
 title: Overruled - George Bernard Shaw
-dates: April 11, 2014
+date: 2014-04-11
+dates_string: April 11, 2014
 location: Mary's Attic, Chicago
 production:
   - name: Angeli Primlani
     title: Director
-    bio_url: /company/angeli_primlani
   - name: Benjamin Dionysus
     title: Stage Manager/Lighting Design
     bio_url: /company/benjamin_dionysus

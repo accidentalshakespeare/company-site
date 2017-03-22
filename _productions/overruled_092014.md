@@ -1,12 +1,12 @@
 ---
 layout: production
 title: Overruled - George Bernard Shaw
-dates: September 21, 2014
+date: 2014-09-21
+dates_string: September 21, 2014
 location: Chief O’Neill’s Pub & Restaurant, Chicago
 production:
   - name: Angeli Primlani
     title: Director
-    bio_url: /company/angeli_primlani
   - name: Benjamin Dionysus
     title: Stage Manager/Lighting Design
     bio_url: /company/benjamin_dionysus

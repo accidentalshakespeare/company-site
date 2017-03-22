@@ -1,9 +1,11 @@
 <div id="current-sponsors-container">
-        <a name="current"></a>
-        <h3>Thanks to our Current Sponsors</h3>
-        <ul id="current-sponsors-list">
-            {% for sponsor in page.sponsors %}
-            <li>{{sponsor.name}}</li>
-            {% endfor %}
-        </ul>
+  <a class="current"></a>
+  <h3>Thanks to our Current Sponsors</h3>
+  <div id="current-sponsors-list">
+    <ul>
+    {% for sponsor in page.sponsors %}
+      <li>{{sponsor.name}}</li>
+    {% endfor %}
+    </ul>
+  </div>
 </div>

@@ -1,7 +1,8 @@
 ---
 layout: production
 title: Tartuffe (staged reading) - Molière
-dates: June 8, 2014
+date: 2014-06-08
+dates_string: June 8, 2014
 location: Chief O’Neill’s Pub & Restaurant, Chicago
 synopsis: Accidental Shakespeare Theatre Company performs a staged reading of one of Moliere's best loved -- and most clever -- comedies. Few scoundrels are as roguish, charming or hilarious as the titular Tartuffe, an impostor who insinuates himself into the home of Orgon and his family, quickly throwing the entire household into chaos. As Orgon's infatuation with his guest and his phony piety grows, Tartuffe's deception threatens to turn downright damaging.
 
@@ -29,7 +30,7 @@ cast:
   role: Mariane/Monsieur
 - actor: Elizabeth Rentfro
   role: Madame Pernelle
-  
+
 images:
   - url: /assets/images/Tartuff.jpg
 ---

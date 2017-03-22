@@ -41,7 +41,12 @@ collections:
   productions:
     output: true
     permalink: /productions/:path/
+  opportunities:
+    output: true
+    permalink: /join_us/:path/
   upcoming:
+    output: true
+    permalink: /upcoming/:path/
   reviews:
   sponsors:
 

@@ -1,7 +1,8 @@
 ---
 layout: production
 title: Lysistrata (staged reading) - Aristophanes
-dates: September 9, 2012
+date: 2012-09-09
+dates_string: September 9, 2012
 location: Titzal Café, Chicago
 synopsis: Ever wonder what would happen if women refused to have sex with their men until they stopped going to war? Well, so did the ancient Greeks.
 production:
@@ -11,7 +12,6 @@ production:
 cast:
 - actor: Angeli Primlani
   role: Lysistrata
-  actor_bio_url: /company/angeli_primlani
 - actor: Michael Rashid
   role: Kinesias
 - actor: Regina Leslie
@@ -20,7 +20,7 @@ cast:
   role: Lampito/Chorus
 - actor: Sherry Legare
   role: Theban Woman/Defector/Door Keeper/Chorus
-  actor_bio_url: 
+  actor_bio_url: /company/sherry_legare
 - actor: Julia Kessler
   role: Kalonike
   actor_bio_url: /company/julia_kessler

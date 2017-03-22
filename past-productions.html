@@ -2,21 +2,23 @@
 layout: default
 title: Past Productions
 ---
+
 <div class="container">
   <h2 class="spacing">{{page.title}}</h2>
 
   <div class="production-posts">
-    {% for post in site.productions %}
-      <div class="production-post spacing">
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-          <span class="date">
+    {% assign sorted = (site.productions | sort: 'date') | reverse %}
+      {% for productions_item in sorted %}
+        <div class="production-post spacing">
+          <h3><a href="{{ productions_item.url }}">{{ productions_item.title }}</a></h3>
+            <span class="date">
 
-            {{ post.dates }}
+              {{ productions_item.dates_string }}
 
-          </span>
-        {{ post.excerpt }}
-      </div>
-    {% endfor %}
+            </span>
+          {{ productions_item.excerpt }}
+        </div>
+      {% endfor %}
   </div>
 </div>
 
