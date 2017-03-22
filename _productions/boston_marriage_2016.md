@@ -34,9 +34,9 @@ cast:
   role: Catherine
 
 images:
-  - url: assets/images/surprisedSherry.jpg
-  - url: assets/images/IMG_7931.jpg
-  - url: assets/images/IMG_7945.jpg
-  - url: assets/images/IMG_7939.jpg
+  - url: /assets/images/surprisedSherry.jpg
+  - url: /assets/images/IMG_7931.jpg
+  - url: /assets/images/IMG_7945.jpg
+  - url: /assets/images/IMG_7939.jpg
 
 ---
