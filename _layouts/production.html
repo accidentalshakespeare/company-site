@@ -14,13 +14,13 @@ layout: default
               <!-- Carousel items -->
               <div class="carousel-inner">
                 {% for image in page.images %}
-                {% if forloop.index == 1 %}
-                <div class="active item" data-slide-number="{{forloop.index }}">
+                  {% if forloop.index == 1 %}
+                    <div class="active item" data-slide-number="{{forloop.index }}">
                   {% else %}
-                  <div class="item" data-slide-number="{{forloop.index }}">
-                    {% endif %}
+                    <div class="item" data-slide-number="{{forloop.index }}">
+                  {% endif %}
                     <img src="{{site.url}}/{{image.url}}"></div>
-                    {% endfor %}
+                {% endfor %}
                   </div><!-- Carousel nav -->
                   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                     <span class="glyphicon glyphicon-chevron-left"></span>
@@ -48,9 +48,9 @@ layout: default
           <!-- Bottom switcher of slider -->
           <ul class="hide-bullets">
             {% for image in page.images %}
-            <li class="col-sm-2">
-              <a class="thumbnail" id="carousel-selector-{{forloop.index0}}"><img src="{{site.url}}/{{image.url}}"></a>
-            </li>
+              <li class="col-sm-2">
+                <a class="thumbnail" id="carousel-selector-{{forloop.index0}}"><img src="{{site.url}}/{{image.url}}"></a>
+              </li>
             {% endfor %}
           </ul>
         </div>
@@ -63,11 +63,11 @@ layout: default
         <h2>Production Team:</h2>
         <ul class="hide-bullets">
           {% for production in page.production %}
-          {% if production.bio_url %}
-          <li class="actor-name">{{production.title}}: <a href="{{production.bio_url}}">{{production.name}}</a></li>
-          {% else %}
-          <li class="actor-name">{{production.title}}: {{production.name}}</li>
-          {% endif %}
+            {% if production.bio_url %}
+              <li class="actor-name">{{production.title}}: <a href="{{production.bio_url}}">{{production.name}}</a></li>
+            {% else %}
+              <li class="actor-name">{{production.title}}: {{production.name}}</li>
+            {% endif %}
           {% endfor %}
         </ul>
       </div>
@@ -75,15 +75,14 @@ layout: default
         <h2>Cast:</h4>
           <ul class="hide-bullets">
             {% for cast in page.cast %}
-            {% if cast.actor_bio_url %}
-            <li><a class="actor-name" href="{{cast.actor_bio_url}}">{{cast.actor}}</a> as {{cast.role}}</li>
-            {% else %}
-            <li><span class="actor-name">{{cast.actor}}</span> as {{cast.role}}</li>
-            {% endif %}
+              {% if cast.actor_bio_url %}
+                <li><a class="actor-name" href="{{cast.actor_bio_url}}">{{cast.actor}}</a> as {{cast.role}}</li>
+              {% else %}
+                <li><span class="actor-name">{{cast.actor}}</span> as {{cast.role}}</li>
+              {% endif %}
             {% endfor %}
           </ul>
         </div>
       </div>
-      
       
       {{content}}
