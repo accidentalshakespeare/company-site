@@ -1,0 +1,49 @@
+/*About Us*/
+
+.people-img-container {
+  /*min-width: 400px;*/
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+
+.people-container {
+/*  display: -webkit-flex;
+  display: flex;*/
+}
+
+.people-img {
+  width: auto;
+  height: auto;
+  max-width: 400px;
+  max-height: 350px;
+  padding: 20px 75px 20px 20px;
+}
+
+.people-info {
+/*  -webkit-flex: 1;
+          flex: 1;*/
+  padding-top: 0px;
+  padding-bottom: 20px;
+  padding-left: 75px;
+  margin: 0;
+  text-align: left;
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 150px;
+}
+
+.img-row {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+li {
+  list-style-image: none;
+  list-style: none;
+  list-style-type: none;
+}

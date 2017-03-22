@@ -1,44 +1,57 @@
 ---
 layout: default
 ---
-<div id="main-directors-list">
-    <h2>Meet our Company!</h2>
-    {% for staff in page.main-staff %}
-        <img src="{{staff.image-path}}" alt="{{staff.name}}">
-        <h3>{{staff.name}}</h3>
-        <p>{{staff.role}}</p>
-        <p>{{staff.synopsis}}
-    {% endfor %}
-</div>
-<div id="staff-list">
-    {% for staff in page.other-staff %}
-    <div class="row">
-        <div class="people-img col-sm-7">
-            <img class="" src="{{staff.image-path}}" alt="{{staff.name}}">
-        </div>
-        <div class="col-sm-5">
-            {% if staff.bio-url %}
-                <h3><a href="{{staff.bio-url}}">{{staff.name}}</a></h3>
-            {% else %}
-                <h3>{{staff.name}}</h3>
-            {% endif %}
-            <p>{{staff.title}}</p>
-        </div>
-    </div>
-    {% endfor %}
-</div>
-<div id="artist-list">
-    <h2>Meet our Fantastic Guest Artists</h2>
-        {% for artist in page.guest-artists %}
-            <h3>{{artist.name}}</h3>
-            <p>{{artist.title}}</p>
-        {% endfor %}
-</div>
+<div id="about-us-container">
+    <h1 class="center-under">Meet our Company!</h1>
+    <div id="main-directors-list">
+        <ul class="img-row">
+        {% for staff in page.main-staff %}
+            <li class="row">
+                <div class="people-img-container col-sm-5">
+                    <img class="people-img" src="{{staff.image-path}}" alt="{{staff.name}}">
+                </div>
 
-<div id="directors-table">
-    <h2>And Our Amazing Board of Directors</h2>
-    {% for board in page.board-members %}
-        <h3> {{board.name}} | {{board.title}} </h3>
-        <p>{{board.affiliation}}</p>
-    {% endfor %}
+                <div class="people-info col-sm-7">
+                    <h3>{{staff.name}}</h3>
+                    <p>{{staff.role}}</p>
+                    <p>{{staff.synopsis}}
+                </div>
+            </li>    
+        {% endfor %}
+        </ul>
+    </div>
+    <div id="staff-list">
+        <ul class="img-row">
+        {% for staff in page.other-staff %}
+            <li class="row">
+                <div class="people-img col-sm-5">
+                    <img class="people-img" src="{{staff.image-path}}" alt="{{staff.name}}">
+                </div>
+                <div class="people-info col-sm-7">
+                    {% if staff.bio-url %}
+                        <h3><a href="{{staff.bio-url}}">{{staff.name}}</a></h3>
+                    {% else %}
+                        <h3>{{staff.name}}</h3>
+                    {% endif %}
+                    <p>{{staff.title}}</p>
+                </div>
+            </li>
+        {% endfor %}
+        </ul>
+    </div>
+    <div id="artist-list">
+        <h2 class="center-under">Meet our Fantastic Guest Artists</h2>
+            {% for artist in page.guest-artists %}
+                <h3>{{artist.name}}</h3>
+                <p>{{artist.title}}</p>
+            {% endfor %}
+    </div>
+
+    <div id="directors-table">
+        <h2 class="center-under">And Our Amazing Board of Directors</h2>
+        {% for board in page.board-members %}
+            <h3> {{board.name}} | {{board.title}} </h3>
+            <p>{{board.affiliation}}</p>
+        {% endfor %}
+    </div>
 </div>

@@ -99,14 +99,35 @@ body {
   	margin-top: 20px;
   	margin-left: -212px;
   }
+
+  .people-img-container {
+    text-align: center;
+  }
 }
 
 @media(max-width: 990px) and (min-width: 767px){
   #bs-navbar-collapse {
     margin-top: -50px;
-  	margin-right: 80px;
+    margin-right: 80px;
   }
 }
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
+.footerCol {
+    text-align: center;
+}
+
+.newsletter-input {
+    width: 120px;
+    margin: 4px auto;
+}
+
+/*Footer*/
 
 #myFooter {
     padding-top: 30px;
@@ -204,18 +225,8 @@ body {
     font-weight: bold;
 }
 
-@media screen and (max-width: 767px) {
-    #myFooter {
-        text-align: center;
-    }
-}
 
-.footerCol {
-    text-align: center;
-}
 
-.newsletter-input {
-    width: 120px;
-    margin: 4px auto;
-}
+
+
 
