@@ -1,28 +1,47 @@
 ---
 layout: default
 ---
-<div id="main-directors-list">
-    <h2>Meet our Company!</h2>
-    {% for staff in page.main-staff %}
-        <img src={{staff.image-path}} alt={{staff.name}}></img>
-        <h3>{{staff.name}}</h3>
-        <p>{{staff.role}}</p>
-        <p>{{staff.synopsis}}
-    {% endfor %}
-</div>
+<div id="about-us-container">
+    <h1>Meet our Company!</h1>
+    <div id="main-directors-list">
+        {% for staff in page.main-staff %}
+        <div class="row">
+
+            <div class="people-img-container col-sm-5">
+                <img class="people-img" src={{staff.image-path}} alt={{staff.name}}>
+            </div>
+
+            <div class="people-info col-sm-7">
+                <h3>{{staff.name}}</h3>
+                <p>{{staff.role}}</p>
+                <p>{{staff.synopsis}}</p>
+            </div>
+
+        </div>
+        {% endfor %}
+    </div>
 <div id="staff-list">
     {% for staff in page.other-staff %}
-        <img src={{staff.image-path}} alt={{staff.name}}></img>
-        {% if staff.bio-url %}
-            <h3><a href="{{staff.bio-url}}">{{staff.name}}</a></h2>
-        {% else %}
-            <h3>{{staff.name}}</h2>
-        {% endif %}
-        <p>{{staff.title}}</p>
+    <div class="row">
+
+        <div class="people-img-container col-sm-5">
+            <img class="people-img" src={{staff.image-path}} alt={{staff.name}}>
+        </div>
+
+        <div class="col-sm-7">
+            {% if staff.bio-url %}
+                <h3><a href="{{staff.bio-url}}">{{staff.name}}</a></h3>
+            {% else %}
+                <h3>{{staff.name}}</h3>
+            {% endif %}
+            <p>{{staff.title}}</p>
+        </div>
+
+    </div>
     {% endfor %}
 </div>
 <div id="artist-list">
-    <h2>Meet our Fantastic Guest Artists</h2>
+    <h1>Meet our Fantastic Guest Artists</h1>
         {% for artist in page.guest-artists %}
             <h3>{{artist.name}}</h3>
             <p>{{artist.title}}</p>
@@ -30,7 +49,7 @@ layout: default
 </div>
 
 <div id="directors-table">
-    <h2>And Our Amazing Board of Directors</h2>
+    <h1>And Our Amazing Board of Directors</h1>
     {% for board in page.board-members %}
         <h3> {{board.name}} | {{board.title}} </h3>
         <p>{{board.affiliation}}</p>
