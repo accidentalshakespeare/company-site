@@ -4,7 +4,11 @@ title: The Black Knight
 date: 2017-02-19
 dates_string: February 19, 2017
 location: Stage 773, Chicago
+description: The world premiere of The Black Knight, an original work by the Accidental Shakespeare Theater Company's Artistic Director, Angeli Primlani.
 synopsis: A love story between a Jewish spy and SS Captain of the Intelligence Division set in Prague during the height of the Nazi occupation during World War II. This world premiere play by Angeli Primlani was performed as a staged reading.
+page_author: The Accidental Shakespeare Theater Company
+feature-img: Black_Knight_dancing.jpg
+
 production:
   - name: Angeli Primlani
     title: Director
