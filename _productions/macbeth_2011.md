@@ -37,6 +37,3 @@ images:
   - url: /assets/images/macbethreading_cast.jpg
   - url: /assets/images/Macbethreading_Shatkus.jpg
 ---
-
-
-
