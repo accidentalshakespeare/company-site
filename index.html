@@ -2,17 +2,70 @@
 layout: default
 permalink: "/"
 ---
-<div class="mission-statement">
-    <h2>Our Mission</h2>
-    <p>Accidental Shakespeare is an ensemble theater company that thoughtfully explores challenging plays, to forge connections between classical themes and contemporary culture in intimate settings.</p>
-    <!-- need to decide where Get Involved links to -->
-    <form action="/join" class="button">
-        <input type="submit" value="Get Involved" />
-    </form>
+
+<div id="main_area">
+<div class="row">
+  <div class="col-xs-12" id="slider">
+      <!-- Top part of the slider -->
+      <div class="row carousel-block">
+          <div class="col-sm-8" id="carousel-bounding-box">
+            <div class="carousel slide" id="myCarousel">
+            <!-- Carousel items -->
+              <div class="carousel-inner">
+                  <div class="active item" data-slide-number="0">
+                    <img src="/assets/images/IMG_0656.jpg">
+                  </div>
+
+                  <div class="item" data-slide-number="1">
+                    <img src="/assets/images/IMG_7931.jpg">
+                  </div>
+
+                  <div class="item" data-slide-number="2">
+                    <img src="/assets/images/IMG_7942.jpg">
+                  </div>
+
+                  <div class="item" data-slide-number="3">
+                    <img src="/assets/images/IMG_7963.jpg">
+                  </div>
+
+                  <div class="item" data-slide-number="4">
+                    <img src="/assets/images/P1010490.JPG">
+                  </div>
+
+                  <div class="item" data-slide-number="5">
+                    <img src="/assets/images/P1010548.JPG">
+                  </div>
+              </div><!-- Carousel nav -->
+              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!--/Slider-->
 </div>
-<div class="upcoming-events">
-    {% include upcoming.html %}
-</div>
-<div class="reviews">
-    {% include reviews.html %}
+
+<div class="homepage-content">
+  <div class="mission-statement block-spacing">
+      <h2 class="homepage-title">Our Mission</h2>
+      <hr>
+      <p class="homepage-paragraph">Accidental Shakespeare is an ensemble theater company that thoughtfully explores challenging plays, to forge connections between classical themes and contemporary culture in intimate settings.</p>
+      <form action="/join" class="button">
+          <button type="submit" class="btn btn-default btn-home">Get Involved</button>
+      </form>
+  </div>
+  <div class="upcoming-events block-spacing">
+    <h2 class="homepage-title">Upcoming Events</h2>
+    <hr>
+      {% include upcoming.html %}
+  </div>
+  <div class="reviews block-spacing">
+    <h2 class="homepage-title">Reviews and Testimonials</h2>
+    <hr>
+      {% include reviews.html %}
+  </div>
 </div>

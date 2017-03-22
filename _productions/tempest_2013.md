@@ -65,9 +65,8 @@ cast:
   role: Alonso
 
 images:
-  - url: /assets/images/P1010560.jpg
-  - url: /assets/images/P1010548.jpg
-  - url: /assets/images/P1010504.jpg
-  - url: /assets/images/P1010490.jpg
-  - url: /assets/images/Tempest_full_cast.jpg
+  - url: /assets/images/P1010560.JPG
+  - url: /assets/images/P1010548.JPG
+  - url: /assets/images/P1010504.JPG
+  - url: /assets/images/P1010490.JPG
 ---
