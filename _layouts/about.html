@@ -21,13 +21,11 @@ layout: default
         </ul>
     </div>
     <div id="staff-list">
-        <ul class="img-row">
+        <ul class="staff-list">
         {% for staff in page.other-staff %}
-            <li class="row">
-                <div class="people-img col-sm-5">
-                    <img class="people-img" src="{{staff.image-path}}" alt="{{staff.name}}">
-                </div>
-                <div class="people-info col-sm-7">
+            <li class="staff-row">
+                <img class="people-img2" src="{{staff.image-path}}" alt="{{staff.name}}">
+                <div class="staff-people-info">
                     {% if staff.bio-url %}
                         <h3><a href="{{staff.bio-url}}">{{staff.name}}</a></h3>
                     {% else %}
