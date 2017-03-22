@@ -38,18 +38,26 @@ layout: default
         </ul>
     </div>
     <div id="artist-list">
-        <h2 class="center-under">Meet our Fantastic Guest Artists</h2>
+        <h2 class="artist-header">Meet our Fantastic Guest Artists</h2>
+        <ul>
             {% for artist in page.guest-artists %}
+            <li class="artist-item">
                 <h3>{{artist.name}}</h3>
                 <p>{{artist.title}}</p>
             {% endfor %}
+            </li>
+        </ul>    
     </div>
 
     <div id="directors-table">
         <h2 class="center-under">And Our Amazing Board of Directors</h2>
+        <ul>
         {% for board in page.board-members %}
-            <h3> {{board.name}} | {{board.title}} </h3>
-            <p>{{board.affiliation}}</p>
+            <li class="directors-item">
+                <h3> {{board.name}} | {{board.title}} </h3>
+                <p>{{board.affiliation}}</p>
+            </li>
         {% endfor %}
+        </ul>
     </div>
 </div>
