@@ -80,6 +80,12 @@
   font-size: 20px;
 }
 
+.actor-name, .actor-name a {
+  font-size: 22px;
+  color: inherit;
+  text-decoration: none;
+}
+
 .btn-home {
   height: 25%;
   font-size: 20px;

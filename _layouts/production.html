@@ -57,29 +57,33 @@ layout: default
         </div>
 </div>
 
-  <div class="production-posts">
-      <div class="production-post spacing">
-        <h2>Production Team:</h3>
-        <ul>
-        {% for production in page.production %}
-          {% if production.bio_url %}
-            <li>{{production.title}}: <a href="{{production.bio_url}}">{{production.name}}</a></li>
-          {% else %}
-            <li>{{production.title}}: {{production.name}}</li>
-          {% endif %}
-        {% endfor %}
-        </ul>
-        <h2>Cast:</h4>
-        <ul>
-        {% for cast in page.cast %}
-          {% if cast.actor_bio_url %}
-            <li><a href="{{cast.actor_bio_url}}">{{cast.actor}}</a> as {{cast.role}}</li>
-          {% else %}
-            <li>{{cast.actor}} as {{cast.role}}</li>
-          {% endif %}
-        {% endfor %}
-        </ul>
-      </div>
+
+<div class="row">
+  <div class="col-sm-12 col-md-6">
+    <h2>Production Team:</h2>
+    <ul class="hide-bullets">
+    {% for production in page.production %}
+      {% if production.bio_url %}
+        <li class="actor-name">{{production.title}}: <a href="{{production.bio_url}}">{{production.name}}</a></li>
+      {% else %}
+        <li class="actor-name">{{production.title}}: {{production.name}}</li>
+      {% endif %}
+    {% endfor %}
+    </ul>
   </div>
+  <div class="col-sm-12 col-md-6">
+    <h2>Cast:</h4>
+    <ul class="hide-bullets">
+    {% for cast in page.cast %}
+      {% if cast.actor_bio_url %}
+        <li><a class="actor-name" href="{{cast.actor_bio_url}}">{{cast.actor}}</a> as {{cast.role}}</li>
+      {% else %}
+        <li><span class="actor-name">{{cast.actor}}</span> as {{cast.role}}</li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
+</div>
+
 
 {{content}}
