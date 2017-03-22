@@ -16,11 +16,21 @@
 title: Accidental Shakespeare
 email: accshakes@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Accidental Shakespeare shares stories that subvert expectations, and explores our common humanity in a complex world. 
+  Accidental Shakespeare shares stories that subvert expectations, and explores our common humanity in a complex world.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://accidentalshakespeare.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: :path/
-#twitter_username: jekyllrb
+
+# For Facebook Open Graph
+og_image: assets/images/accidental-shakespeare-logo.png # Default image for Open Graph tag
+og_image_type: image/png
+og_image_width: 245
+og_image_height: 302
+fb_profile_id: AccShakes
+fb_admins: 196678607064611
+
+# For Twitter Cards
+twitter_username: AccShakes
 #github_username:  jekyll
 
 # Build settings
