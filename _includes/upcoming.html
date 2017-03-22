@@ -1,12 +1,17 @@
-<h2>Upcoming Events</h2> 
 {% for event in site.upcoming %}
   <div class="upcoming-item">
     <!-- <img src=""> -->
     <h3>{{ event.title }}</h3>
-    {% for tickets in event.tickets %}
-      {% if tickets.code %}
-      <A HREF="http://www.brownpapertickets.com/event/{{ tickets.code }}"><IMG SRC="http://www.brownpapertickets.com/g/6/BPT_buy_tickets_small.png" WIDTH=108px HEIGHT=58px BORDER=0></A>
-      {% endif %}
-    {% endfor %}
   </div>
+{% endfor %}
+{% for ticket in page.tickets %}
+  {% if tickets.code %}
+    <link rel="stylesheet" type="text/css" href="http://www.brownpapertickets.com/widget_v651.css" /><DIV ID="bpt_eventbody"><CENTER><BR><BR>Brown Paper Tickets Ticket Widget Loading...<BR><BR><A HREF="http://www.brownpapertickets.com/event/{{ tickets.code }}">Click Here</A> to visit the Brown Paper Tickets event page.</CENTER><BR><BR></DIV> <script src="http://www.brownpapertickets.com/eventwidget.js?event={{ tickets.code }}&nodescription=1" type="text/javascript" language="javascript"></script>
+    <script src="http://www.brownpapertickets.com/widget_v651.js?event={{ tickets.code }}" type="text/javascript" language="javascript"></script>
+  {% endif %}
+{% endfor %}
+{% for tickets in event.tickets %}
+  {% if tickets.code %}
+    <A HREF="http://www.brownpapertickets.com/event/{{ tickets.code }}"><IMG SRC="http://www.brownpapertickets.com/g/6/BPT_buy_tickets_small.png" WIDTH=108px HEIGHT=58px BORDER=0></A>
+  {% endif %}
 {% endfor %}

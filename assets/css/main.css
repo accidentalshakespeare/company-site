@@ -3,6 +3,8 @@
 .navbar {
   background-color: white !important;
   border: none !important;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .container {
@@ -23,8 +25,7 @@
 }
 
 .donate-button-recur {
-  margin-top: 20px;
-  margin-left: 50%;
+  margin-left: 35%;
 }
 
 .logo {
@@ -45,8 +46,6 @@
 }
 
 .navbar-links a:hover {
-  font-size: 28px;
-  transition: .6s;
   background-color: white !important;
 }
 
@@ -80,20 +79,27 @@
   margin-top: 100px
 }
 
+.logo-container {
+  display: block;
+}
+
+.donation-field {
+  padding-bottom: 18px;
+}
+
 /*Body*/
 body {
   background-color: white;
 }
 
-/*Donations*/
-
 
 /*Media Queries*/
-@media(max-width: 767px) and (min-width: 610px){
-  .shakespeare {
-  	margin-top: 20px;
-  	margin-left: -212px;
-  }
+@media(max-width: 767px) {
+ .shakespeare {
+     margin-top: 20px;
+     margin-left: -212px;
+ }
+
 }
 
 @media(max-width: 990px) and (min-width: 767px){
@@ -102,6 +108,27 @@ body {
   	margin-right: 80px;
   }
 }
+
+@media(max-width: 568px) and (min-width: 511px) {
+ .block-level {
+   margin-top: 100px;
+  }
+  .shakespeare {
+  margin-top: 90px;
+  }
+}
+
+@media(max-width: 510px) {
+  .block-level {
+    margin-top: 40px;
+  }
+
+  .shakespeare {
+    margin-top: -10px;
+    margin-left: 30px;
+  }
+}
+
 
 #myFooter {
     padding-top: 30px;
@@ -213,4 +240,3 @@ body {
     width: 120px;
     margin: 4px auto;
 }
-
