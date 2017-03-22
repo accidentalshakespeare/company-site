@@ -4,7 +4,7 @@ layout: default
 <div id="main-directors-list">
     <h2>Meet our Company!</h2>
     {% for staff in page.main-staff %}
-        <img src={{staff.image-path}} alt={{staff.name}}>
+        <img src="{{staff.image-path}}" alt="{{staff.name}}">
         <h3>{{staff.name}}</h3>
         <p>{{staff.role}}</p>
         <p>{{staff.synopsis}}
@@ -14,7 +14,7 @@ layout: default
     {% for staff in page.other-staff %}
     <div class="row">
         <div class="people-img col-sm-7">
-            <img class="" src={{staff.image-path}} alt={{staff.name}}>
+            <img class="" src="{{staff.image-path}}" alt="{{staff.name}}">
         </div>
         <div class="col-sm-5">
             {% if staff.bio-url %}
