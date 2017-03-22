@@ -1,7 +1,8 @@
 ---
 layout: production
 title: Lysistrata (staged reading) - Aristophanes
-dates: September 9, 2012
+date: 2012-09-09
+dates_string: September 9, 2012
 location: Titzal Café, Chicago
 synopsis: Ever wonder what would happen if women refused to have sex with their men until they stopped going to war? Well, so did the ancient Greeks.
 production:
