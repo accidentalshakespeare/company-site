@@ -6,7 +6,8 @@ layout: default
     <div id="main-directors-list">
         <ul class="img-row">
         {% for staff in page.main-staff %}
-            <li class="row">
+            <div class="img-row-item">
+            <li class="img-row-item-box">
                 <div class="people-img-container col-sm-5">
                     <img class="people-img" src="{{staff.image-path}}" alt="{{staff.name}}">
                 </div>
@@ -16,7 +17,8 @@ layout: default
                     <p>{{staff.role}}</p>
                     <p>{{staff.synopsis}}
                 </div>
-            </li>    
+            </li>   
+            </div> 
         {% endfor %}
         </ul>
     </div>
