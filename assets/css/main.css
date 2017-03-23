@@ -92,6 +92,13 @@ body {
   background-color: white;
 }
 
+.homepage-paragraph {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 26px !important;
+  font-weight: 500;
+}
+
+
 
 /*Media Queries*/
 @media(max-width: 767px) {
