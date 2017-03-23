@@ -107,6 +107,10 @@ body {
     margin-top: -50px;
   	margin-right: 80px;
   }
+
+  .logo-container {
+    margin-left: 150px;
+  }
 }
 
 @media(max-width: 568px) and (min-width: 511px) {
