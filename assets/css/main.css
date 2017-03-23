@@ -92,6 +92,33 @@ body {
   background-color: white;
 }
 
+.btn-home {
+  background-color: #FFC300;
+  font-size: 50px !important;
+  width: 400px;
+  margin-top: 20px;
+  color: #241346;
+  text-shadow: 2px 1px 8px #666666;
+}
+
+.btn-home:hover {
+  background-color: #241346;
+  color: white !important;
+}
+
+.upcoming-events {
+  background-color: #241346;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  color: white;
+}
+
+.reviews {
+  background-color: #666666;
+  padding-top: 60px;
+  color: white;
+}
+
 .homepage-paragraph {
   font-family: 'Cormorant Garamond', serif;
   font-size: 26px !important;
