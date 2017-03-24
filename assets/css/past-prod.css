@@ -1,0 +1,113 @@
+.show-prod-block {
+  width: 500px;
+  height: 500px;
+}
+
+.show-prod-block img {
+  width: 100%;
+  height: 100%;
+}
+
+.production-post {
+  /*display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;*/
+  width: 600px;
+}
+
+
+.prod-wrap {
+  -webkit-flex: none;
+  flex: none;
+  /*width: 400px;*/
+}
+
+.production-container {
+  text-align: center;
+
+}
+
+.prod-links {
+  padding-top: 200px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+.prod-links-h2 {
+  padding-top: 20px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: black;
+}
+
+
+.screen {
+  background-color: white;
+  z-index: 2;
+}
+
+.carousel-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-statement, .upcoming-events, .reviews {
+  text-align: center;
+}
+
+.page-synopsis {
+  padding-top: 30px;
+  font-weight: 700;
+}
+
+
+
+.homepage-title {
+  font-size: 60px;
+}
+
+.homepage-paragraph {
+  font-size: 18px;
+}
+
+.review-title {
+  font-size: 26px;
+}
+
+.review-paragraph {
+  font-size: 20px;
+}
+
+.actor-name, .actor-name a {
+  font-size: 22px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.btn-home {
+  height: 25%;
+  font-size: 20px;
+}
+
+.block-spacing {
+  padding-bottom: 80px;
+}
+
+.production-post ul li {
+  list-style-type: none;
+}
+
+.hide-bullets {
+  list-style-type: none;
+}
+
+.thumbnail {
+  margin-top: 20px;
+  margin-left: -45px;
+}
+
+#slider-thumbs ul li {
+  padding-right: 60px;
+}

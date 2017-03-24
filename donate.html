@@ -11,6 +11,9 @@ title: Donate
         <form class="donate-button" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick">
           <input type="hidden" name="hosted_button_id" value="C69YKQAPRZM5G">
+          <!-- Adding as a test run for this button -->
+          <input type="hidden" name="return" value="{{ site.path }}/thankyou">
+          <input type="hidden" name="cancel_return" value="{{ site.path }}/donate">
           <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
           <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
         </form>
@@ -29,8 +32,8 @@ title: Donate
           <input type="hidden" name="no_note" value="1">
           <input type="hidden" name="no_shipping" value="2">
           <input type="hidden" name="rm" value="1">
-          <input type="hidden" name="return" value="{{ site.url }}/thankyou">
-          <input type="hidden" name="cancel_return" value="{{ site.url }}/donate">
+          <input type="hidden" name="return" value="{{ site.path }}/thankyou">
+          <input type="hidden" name="cancel_return" value="{{ site.path }}/donate">
           <input type="hidden" name="src" value="1">
           <input type="hidden" name="a3" value="1.00">
           <input type="hidden" name="p3" value="1">
@@ -41,7 +44,7 @@ title: Donate
               <td>How many total times would you like this donation to occur? (including this payment)</td>
             </tr>
             <tr>
-              <td>
+              <td class="donation-field">
                 <select name="srt">
                   <option value="0">Never End</option>
                   <option value="2">2</option>
@@ -62,7 +65,7 @@ title: Donate
               <td>How often would you like this donation to reoccur?</td>
             </tr>
             <tr>
-              <td>
+              <td class="donation-field">
                 <select name="t3">
                   <option value="M">Monthly </option>
                   <option value="Y">Yearly </option>
@@ -73,7 +76,7 @@ title: Donate
               <td>Enter Your Donation Amount</td>
             </tr>
             <tr>
-              <td>
+              <td class="donation-field">
                 <input type="text" name="a3" maxlength="60">
               </td>
             </tr>
