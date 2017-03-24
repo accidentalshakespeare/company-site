@@ -66,7 +66,7 @@ cast:
 
 images:
   - url: /assets/images/P1010560.JPG
-  - url: /assets/images/P1010548.JPG
+  - url: /assets/images/P1010548b.JPG
   - url: /assets/images/P1010504.JPG
-  - url: /assets/images/P1010490.JPG
+  - url: /assets/images/P1010490b.JPG
 ---
