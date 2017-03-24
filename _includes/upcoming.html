@@ -3,9 +3,12 @@
     <!-- <img src=""> -->
     <h3 class="homepage-paragraph">{{ event.title }}</h3>
   </div>
-{% endfor %}
-{% for tickets in event.tickets %}
-  {% if tickets.code %}
-    <A HREF="http://www.brownpapertickets.com/event/{{ tickets.code }}"><IMG SRC="http://www.brownpapertickets.com/g/6/BPT_buy_tickets_small.png" WIDTH=108px HEIGHT=58px BORDER=0></A>
-  {% endif %}
+  <!-- PH 3/24/17 - The below needs to be nested under site.upcoming as it is now -->
+  <!-- The link for tickets will then only appear when the actual md file includes a code. -->
+  <!-- If there is no code present in the md file, the link will NOT generate on the page. -->
+  {% for tickets in event.tickets %}
+    {% if tickets.code %}
+      <A HREF="http://www.brownpapertickets.com/event/{{ tickets.code }}"><IMG SRC="http://www.brownpapertickets.com/g/6/BPT_buy_tickets_small.png" WIDTH=108px HEIGHT=58px BORDER=0></A>
+    {% endif %}
+  {% endfor %}
 {% endfor %}
