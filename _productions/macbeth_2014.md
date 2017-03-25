@@ -62,8 +62,8 @@ cast:
 
 images:
   - url: /assets/images/IMG_8138.jpg
-  - url: /assets/images/IMG_7942.jpg
-  - url: /assets/images/IMG_7963.jpg
+  - url: /assets/images/IMG_7942b.jpg
+  - url: /assets/images/IMG_7963b.jpg
   - url: /assets/images/IMG_8087.jpg
   - url: /assets/images/IMG_8238.jpg
   - url: /assets/images/IMG_8138.jpg
