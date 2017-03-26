@@ -1,11 +1,21 @@
 ---
 layout: default
----
-
+---                
 <div id="new-sponsor-container">
-<a name="new"></a>
-<h3>Join Our Community of Sponsors</h3>
-<div>The Accidental Shakespeare Company would not exist without the generous support of our sponsors.  If you value our work and community presence, please consider becoming a sponsor.</div>
-<a id="new-sponsor-button" href="mailto:accshakes@gmail.com?subject=New Sponsor Inquiry">Become a sponsor</a>
+    <a name="new"></a>
+    <h2>Join Our Community of Sponsors</h2>
+    <div>The Accidental Shakespeare Company would not exist without the generous support of our sponsors.  If you value our work and community presence, please consider becoming a sponsor.</div>
+    <a id="new-sponsor-button" href="mailto:accshakes@gmail.com?subject=New Sponsor Inquiry">Become a sponsor</a>
+    <div>- or -</div>
+    <div>email us at accshakes@gmail.com</div>
 </div>
-{% include current_sponsors.html %}
+<div id="current-sponsors-container">
+    <a name="current"></a>
+    <h2>Thanks to our Current Sponsors</h2>
+        <p>Accidental Shakespeare holds various fundraisers and events throughout the year. These sponsors have been gracious in offering their support.</p>
+    <ul id="current-sponsors-list">
+        {% for sponsor in page.sponsors %}
+        <li>{{sponsor.name}}</li>
+        {% endfor %}
+    </ul>
+</div>
