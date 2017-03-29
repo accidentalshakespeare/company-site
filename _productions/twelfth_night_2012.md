@@ -21,7 +21,7 @@ production:
     title: Front of House
   - name: Julia Kessler/Sherry Legare
     title: Catering
-  - name: Ben Aldred/Ryan Simmons
+  - name: Ben Aldred/Robin Billadeau
     title: Marketing
 
 cast:
