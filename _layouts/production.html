@@ -2,6 +2,12 @@
 layout: default
 ---
 
+<!-- This bit of Liquid counts the number of images, image_count, for use in flow control below -->
+{% assign image_count = 0 %}
+{% for image in page.images %}
+  {% assign image_count = image_count | plus: 1 %}
+{% endfor %}
+
 <div class="container">
   <div id="main_area">
     <!-- Slider -->
@@ -10,36 +16,52 @@ layout: default
         <!-- Top part of the slider -->
         <div class="row">
           <div class="col-sm-8" id="carousel-bounding-box">
+              
+            {% if image_count == 1 %}
+            <!-- Show Single Static Image -->
+            {% for image in page.images %}
+            <div class="carousel-inner">
+              <img src="{{image.url}}">
+            </div>
+            {% endfor %}
+          </div>
+
+            {% elsif image_count != 0 %}
+            <!-- Show Carousel items -->
             <div class="carousel slide" id="myCarousel">
-              <!-- Carousel items -->
               <div class="carousel-inner">
-                {% for image in page.images %}
-                  {% if forloop.index == 1 %}
-                    <div class="active item" data-slide-number="{{forloop.index }}">
-                  {% else %}
-                    <div class="item" data-slide-number="{{forloop.index }}">
-                  {% endif %}
-                    <img src="{{image.url}}"></div>
-                {% endfor %}
-                  </div><!-- Carousel nav -->
-                  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left"></span>
-                  </a>
-                  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right"></span>
-                  </a>
-                </div>
-              </div>
+              {% for image in page.images %}
+                {% if forloop.index == 1 %}
+                  <div class="active item" data-slide-number="{{forloop.index }}">
+                {% else %}
+                  <div class="item" data-slide-number="{{forloop.index }}">
+                {% endif %}
+                    <img src="{{image.url}}">
+                  </div>
+              {% endfor %}
+              </div><!-- Carousel nav -->
+              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+            </div>
+
+            {% else %}
+              <!-- Show no images -->
+
+            {% endif %}
+          </div>
               
-              <div class="col-sm-4" id="carousel-text"></div>
-              
-              <div class="show-info">
-                <h1>{{ page.title }}</h1>
-                <b><span class="date">
-                  {{ page.dates_string }} | {{page.location}}
-                </span></b>
-                <h4 class="page-synopsis">{{page.synopsis}}</h4>
-              </div>
+            <div class="col-sm-4" id="carousel-text"></div>
+            
+            <div class="show-info">
+              <h1>{{ page.title }}</h1>
+              <b><span class="date">
+                {{ page.dates_string }} | {{page.location}}
+              </span></b>
+              <h4 class="page-synopsis">{{page.synopsis}}</h4>
             </div>
           </div>
         </div><!--/Slider-->
@@ -72,7 +94,7 @@ layout: default
         </ul>
       </div>
       <div class="col-sm-12 col-md-6">
-        <h2>Cast:</h4>
+        <h2>Cast:</h2>
           <ul class="hide-bullets">
             {% for cast in page.cast %}
               {% if cast.actor_bio_url %}
@@ -86,3 +108,7 @@ layout: default
       </div>
       
       {{content}}
+
+    </div>
+  </div>
+</div>
