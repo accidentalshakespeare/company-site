@@ -16,56 +16,49 @@ layout: default
         <!-- Top part of the slider -->
         <div class="row">
           <div class="col-sm-8" id="carousel-bounding-box">
-              
-            {% if image_count == 1 %}
-            <!-- Show Single Static Image -->
-            {% for image in page.images %}
-            <div class="carousel-inner">
-              <img src="{{image.url}}">
-            </div>
-            {% endfor %}
-          </div>
-
-            {% elsif image_count != 0 %}
-            <!-- Show Carousel items -->
             <div class="carousel slide" id="myCarousel">
-              <div class="carousel-inner">
-              {% for image in page.images %}
-                {% if forloop.index == 1 %}
-                  <div class="active item" data-slide-number="{{forloop.index }}">
-                {% else %}
-                  <div class="item" data-slide-number="{{forloop.index }}">
-                {% endif %}
+              {% if image_count == 1 %}
+                <!-- Show Single Static Image -->
+                {% for image in page.images %}
+                  <div class="carousel-inner">
                     <img src="{{image.url}}">
                   </div>
-              {% endfor %}
-              </div><!-- Carousel nav -->
-              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-              </a>
-              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-              </a>
-            </div>
-
-            {% else %}
-              <!-- Show no images -->
-
-            {% endif %}
-          </div>
+                {% endfor %}
+              {% elsif image_count != 0 %}
+                <!-- Show Carousel -->
+                <div class="carousel-inner">
+                  {% for image in page.images %}
+                    {% if forloop.index == 1 %}
+                      <div class="active item" data-slide-number="{{forloop.index }}">
+                    {% else %}
+                      <div class="item" data-slide-number="{{forloop.index }}">
+                    {% endif %}
+                      <img src="{{image.url}}"></div>
+                  {% endfor %}
+                    </div><!-- Carousel nav -->
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                      <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                  </div>
+                </div>
+                <div class="col-sm-4" id="carousel-text"></div>
+              {% endif %}
               
-            <div class="col-sm-4" id="carousel-text"></div>
-            
-            <div class="show-info">
-              <h1>{{ page.title }}</h1>
-              <b><span class="date">
-                {{ page.dates_string }} | {{page.location}}
-              </span></b>
-              <h4 class="page-synopsis">{{page.synopsis}}</h4>
+              <div class="show-info">
+                <h1>{{ page.title }}</h1>
+                <b><span class="date">
+                  {{ page.dates_string }} | {{page.location}}
+                </span></b>
+                <h4 class="page-synopsis">{{page.synopsis}}</h4>
+              </div>
             </div>
           </div>
         </div><!--/Slider-->
         
+        {% if image_count > 1 %}
         <div class="row hidden-xs" id="slider-thumbs">
           <!-- Bottom switcher of slider -->
           <ul class="hide-bullets">
@@ -76,6 +69,7 @@ layout: default
             {% endfor %}
           </ul>
         </div>
+        {% endif %}
       </div>
     </div>
     
@@ -109,6 +103,4 @@ layout: default
       
       {{content}}
 
-    </div>
-  </div>
 </div>
