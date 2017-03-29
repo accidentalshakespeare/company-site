@@ -16,7 +16,7 @@ cast:
   role: Beatrice
 - actor: Ryan Swinkle
   role: Benedict
-- actor: Ryan Simmons
+- actor: Robin Billadeau
   role: Claudio
 - actor: Christa Sablic
   role: Hero
