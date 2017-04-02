@@ -128,23 +128,41 @@ body {
 
 
 /*Media Queries*/
-@media(max-width: 767px) {
- .shakespeare {
-     margin-top: 20px;
-     margin-left: -212px;
- }
+@media(max-width: 767px) and (min-width: 610px){
+  .shakespeare {
+  	margin-top: 20px;
+  	margin-left: -212px;
+  }
 
+ .people-img-container {
+   text-align: center;
+ }
 }
 
 @media(max-width: 990px) and (min-width: 767px){
   #bs-navbar-collapse {
     margin-top: -50px;
-  	margin-right: 80px;
+    margin-right: 80px;
   }
 
   .logo-container {
     margin-left: 150px;
   }
+}
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+}
+
+.footerCol {
+    text-align: center;
+}
+
+.newsletter-input {
+    width: 120px;
+    margin: 4px auto;
 }
 
 @media(max-width: 568px) and (min-width: 511px) {
@@ -167,7 +185,7 @@ body {
   }
 }
 
-
+/*Footer*/
 #myFooter {
     padding-top: 30px;
     font-family: 'Cormorant Garamond', serif;
@@ -262,16 +280,6 @@ body {
     /*line-height: 25px;*/
     font-size: 14px;
     font-weight: bold;
-}
-
-@media screen and (max-width: 767px) {
-    #myFooter {
-        text-align: center;
-    }
-}
-
-.footerCol {
-    text-align: center;
 }
 
 .newsletter-input {
