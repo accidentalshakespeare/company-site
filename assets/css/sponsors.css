@@ -54,3 +54,13 @@
   font-size: 16px;
   font-weight: bold;
 }
+
+@media(max-width: 767px){
+  #new-sponsor-form {
+    width: 340px;
+  }
+
+  .btn-sponsor {
+    width: 300px;
+  }
+}

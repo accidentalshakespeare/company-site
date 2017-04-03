@@ -121,18 +121,18 @@ body {
   color: white;
 }
 
-.reviews {
-  background-color: #666666;
-  padding-top: 60px;
-  color: white;
-}
-
 .homepage-title {
   font-size: 60px;
 }
 
 .homepage-paragraph {
   font-size: 18px;
+}
+
+.reviews {
+  background-color: #666666;
+  padding-top: 60px;
+  color: white;
 }
 
 .review-title {
