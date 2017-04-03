@@ -27,7 +27,6 @@
 
 .production-container {
   text-align: center;
-
 }
 
 .prod-links {
@@ -43,7 +42,6 @@
   -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: black;
 }
-
 
 .screen {
   background-color: white;
@@ -65,15 +63,6 @@
   font-size: 22px;
   color: inherit;
   text-decoration: none;
-}
-
-.btn-home {
-  height: 25%;
-  font-size: 20px;
-}
-
-.block-spacing {
-  padding-bottom: 80px;
 }
 
 .production-post ul li {
