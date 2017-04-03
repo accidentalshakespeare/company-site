@@ -22,7 +22,7 @@ cast:
     role: Third Murderer, Duncan, Old Man, Porter, Apparition
   - actor: Christa Sablic
     role: First Murderer, Banquo, Donalblain, Son of Macduff, Apparition
-  - actor: Ryan Simmons
+  - actor: Robin Billadeau
     role: Second Murderer, Lennox, Fleance, Messenger, Apparition
   - actor: Stacie Swikle
     role: Third Witch, Macduff, Captain, Gentlewoman
