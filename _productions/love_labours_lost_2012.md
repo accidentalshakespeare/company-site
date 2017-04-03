@@ -27,7 +27,7 @@ cast:
   role: Moth/Boyet
 - actor: Richard Alpert
   role: Holofernes
-- actor: Ryan Simmons
+- actor: Robin Billadeau
   role: George Seacoa
 - actor: Eli Branson
   role: Berown
