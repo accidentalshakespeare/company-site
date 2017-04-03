@@ -92,7 +92,7 @@ body {
   background-color: white;
 }
 
-.btn-home {
+.btn-general {
   background-color: #FFC300;
   font-size: 50px !important;
   width: 400px;
@@ -101,12 +101,20 @@ body {
   text-shadow: 2px 1px 8px #666666;
 }
 
-.btn-home:hover {
+.btn-general:hover {
   background-color: #241346;
   color: white !important;
 }
 
-.upcoming-events {
+.btn-home {
+  width: 400px;
+}
+
+.mission-statement, .royal-blue-container, .reviews {
+  text-align: center;
+}
+
+.royal-blue-container {
   background-color: #241346;
   padding-top: 60px;
   padding-bottom: 40px;
@@ -119,13 +127,33 @@ body {
   color: white;
 }
 
+
+
+.homepage-title {
+  font-size: 60px;
+}
+
+.homepage-paragraph {
+  font-size: 18px;
+}
+
+.review-title {
+  font-size: 26px;
+}
+
+.review-paragraph {
+  font-size: 20px;
+}
+
 .homepage-paragraph {
   font-family: 'Cormorant Garamond', serif;
   font-size: 26px !important;
   font-weight: 500;
 }
 
-
+.block-spacing {
+  padding-bottom: 80px;
+}
 
 /*Media Queries*/
 @media(max-width: 767px) and (min-width: 610px){
@@ -156,15 +184,6 @@ body {
     }
 }
 
-.footerCol {
-    text-align: center;
-}
-
-.newsletter-input {
-    width: 120px;
-    margin: 4px auto;
-}
-
 @media(max-width: 568px) and (min-width: 511px) {
  .block-level {
    margin-top: 100px;
@@ -186,6 +205,11 @@ body {
 }
 
 /*Footer*/
+
+.footerCol {
+    text-align: center;
+}
+
 #myFooter {
     padding-top: 30px;
     font-family: 'Cormorant Garamond', serif;

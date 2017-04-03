@@ -1,25 +1,40 @@
 #new-sponsor-container {
-	background-color: #666666;
-	margin: auto;
-	padding: 30px 80px;
-	text-align: center;
+  margin: auto;
+  padding: 30px 10px;
+  text-align: center;
+  background-color: #241346;
 
-	color: #EEEEEE;
+  color: #EEEEEE;
 }
 
-#new-sponsor-button {
-		color: #111111;
-    text-decoration: none; font: menu;
-    display: inline-block; padding: 8px 8px;
-    background: ButtonFace; color: ButtonText;
-    border-style: solid; border-width: 2px;
-    border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
-    border-radius: 4px;
-    margin: 20px 0px 0px 0px;
+#new-sponsor-text-container {
+  width: 70%;
+  min-width: 300px;
+  margin: auto;
+}
+
+#new-sponsor-form {
+  width: 400px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #666666;
+  border-radius: 10px;
+  font-size: 26px !important;
+  font-weight: 500;
+  t
+  color: white;
+}
+
+.new-sponsor-field-group {
+  margin: 10px 0px;
+}
+
+.btn-sponsor {
+  width: 360px;
 }
 
 #current-sponsors-container {
-	text-align: center;
+  text-align: center;
 }
 
 #current-sponsors-list {
@@ -39,4 +54,3 @@
   font-size: 16px;
   font-weight: bold;
 }
-

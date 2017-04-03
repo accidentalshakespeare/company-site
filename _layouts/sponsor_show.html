@@ -3,12 +3,27 @@ layout: default
 ---                
 <div id="new-sponsor-container">
     <a name="new"></a>
-    <h2>Join Our Community of Sponsors</h2>
-    <div>The Accidental Shakespeare Company would not exist without the generous support of our sponsors.  If you value our work and community presence, please consider becoming a sponsor.</div>
-    <a id="new-sponsor-button" href="mailto:accshakes@gmail.com?subject=New Sponsor Inquiry">Become a sponsor</a>
-    <div>- or -</div>
-    <div>email us at accshakes@gmail.com</div>
+    <div id="new-sponsor-text-container">
+        <h2>Join Our Community of Sponsors</h2>
+        <div>The Accidental Shakespeare Company would not exist without the generous support of our sponsors.  If you value our work and community presence, please consider becoming a sponsor.</div>
+    </div>
+
+    <form id="new-sponsor-form" class="royal-blue-container" method="POST" action="https://formspree.io/nicholasgorajski@email.com">
+        <div class="new-sponsor-field-group">
+            <label for="new-sponsor-name">Name:</label>
+            <input id="new-sponsor-name" class="form-control input-sm" type="text" name="NAME" placeholder="Name">
+        </div>
+        <div class="new-sponsor-field-group">
+            <label for="new-sponsor-email">Email:</label>
+            <input id="new-sponsor-email" class="form-control input-sm" type="text" name="EMAIL" placeholder="name@email.com">
+        </div>
+        <div class="new-sponsor-field-group">
+            <input type="submit" class="btn btn-default btn-general btn-sponsor" value="Sponsor Us">
+        </div>
+    </form>
+
 </div>
+
 <div id="current-sponsors-container">
     <a name="current"></a>
     <h2>Thanks to our Current Sponsors</h2>
@@ -19,3 +34,10 @@ layout: default
         {% endfor %}
     </ul>
 </div>
+
+
+
+
+
+
+    <a href="mailto:accshakes@gmail.com?subject=New Sponsor Inquiry">Become a sponsor</a>

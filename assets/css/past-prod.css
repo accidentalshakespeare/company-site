@@ -56,31 +56,9 @@
   align-items: center;
 }
 
-.mission-statement, .upcoming-events, .reviews {
-  text-align: center;
-}
-
 .page-synopsis {
   padding-top: 30px;
   font-weight: 700;
-}
-
-
-
-.homepage-title {
-  font-size: 60px;
-}
-
-.homepage-paragraph {
-  font-size: 18px;
-}
-
-.review-title {
-  font-size: 26px;
-}
-
-.review-paragraph {
-  font-size: 20px;
 }
 
 .actor-name, .actor-name a {
