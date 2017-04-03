@@ -6,6 +6,6 @@
 {% endfor %}
 {% for tickets in event.tickets %}
   {% if tickets.code %}
-    <A HREF="http://www.brownpapertickets.com/event/{{ tickets.code }}"><IMG SRC="http://www.brownpapertickets.com/g/6/BPT_buy_tickets_small.png" WIDTH=108px HEIGHT=58px BORDER=0></A>
+    <a href="http://www.brownpapertickets.com/event/{{ tickets.code }}"><img src="http://www.brownpapertickets.com/g/6/BPT_buy_tickets_small.png" width=108px height=58px border=0></A>
   {% endif %}
 {% endfor %}
