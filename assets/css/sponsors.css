@@ -1,14 +1,24 @@
 #new-sponsor-container {
   margin: auto;
-  padding: 30px 10px;
+  padding: 20px 10px;
   text-align: center;
   background-color: #241346;
 
   color: #EEEEEE;
 }
 
+.sponsor-title {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.sponsor-paragraph {
+  font-size: 26px;
+  font-weight: 500;
+}
+
 #new-sponsor-text-container {
-  width: 70%;
+  width: 72%;
   min-width: 300px;
   margin: auto;
 }
@@ -21,8 +31,15 @@
   border-radius: 10px;
   font-size: 26px !important;
   font-weight: 500;
-  t
   color: white;
+}
+
+.sponsor-text-input {
+  font-size: 24px;
+}
+
+#new-sponsor-form label {
+  font-size: 30px;
 }
 
 .new-sponsor-field-group {
@@ -31,9 +48,12 @@
 
 .btn-sponsor {
   width: 360px;
+  font-size: 48px;
+  font-weight: 500;
 }
 
 #current-sponsors-container {
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -51,7 +71,7 @@
   -webkit-flex: none;
           flex: none;
   width: 300px;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: bold;
 }
 
