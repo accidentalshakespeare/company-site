@@ -2,7 +2,6 @@
 layout: default
 ---
 
-<!-- This bit of Liquid counts the number of images, image_count, for use in flow control below -->
 {% assign image_count = 0 %}
 {% for image in page.images %}
   {% assign image_count = image_count | plus: 1 %}
