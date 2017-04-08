@@ -38,11 +38,11 @@ cast:
   role: Ursula
 
   images:
-  - url: /assets/images/Much_Ado_fullcast_singing.jpg
-  - url: /assets/images/Much_Ado_JohnAmedio.jpg
-  - url: /assets/images/Much_Ado_JohnAmedio_Ryan.jpg
-  - url: /assets/images/Much_Ado_Julia_Christa_Masks.jpg
-  - url: /assets/images/Much_Ado_Julia_Swikle.jpg
+  - url: /assets/images/Much_Ado_fullcast_singing.JPG
+  - url: /assets/images/Much_Ado_JohnAmedio.JPG
+  - url: /assets/images/Much_Ado_JohnAmedio_Ryan.JPG
+  - url: /assets/images/Much_Ado_Julia_Christa_Masks.JPG
+  - url: /assets/images/Much_Ado_Julia_Swikle.JPG
 ---
 
 

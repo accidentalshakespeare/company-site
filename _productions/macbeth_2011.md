@@ -31,8 +31,8 @@ cast:
     actor_bio_url: /company/julia_kessler
 
 images:
-  - url: /assets/images/Macbethreading_3witches.jpg
-  - url: /assets/images/Macbethreading_Oakes_Jaime.jpg
-  - url: /assets/images/macbethreading_cast.jpg
-  - url: /assets/images/Macbethreading_Shatkus.jpg
+  - url: /assets/images/Macbethreading_3witches.JPG
+  - url: /assets/images/Macbethreading_Oakes_Jaime.JPG
+  - url: /assets/images/macbethreading_cast.JPG
+  - url: /assets/images/Macbethreading_Shatkus.JPG
 ---

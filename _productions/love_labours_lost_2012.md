@@ -37,9 +37,9 @@ cast:
   role: Costard
 
 images:
-  - url: /assets/images/LoveLaboursLost_3_ladies.jpg
-  - url: /assets/images/Lovelabourslost_3guys.jpg
-  - url: /assets/images/Lovelabourslost_3ladies_cucumber.jpg
-  - url: /assets/images/LoveLaboursLost_Jared_costume.jpg
-  - url: /assets/images/Lovelabourslost_Gary.jpg
+  - url: /assets/images/LoveLaboursLost_3_ladies.JPG
+  - url: /assets/images/Lovelabourslost_3guys.JPG
+  - url: /assets/images/Lovelabourslost_3ladies_cucumber.JPG
+  - url: /assets/images/LoveLaboursLost_Jared_costume.JPG
+  - url: /assets/images/Lovelabourslost_Gary.JPG
 ---

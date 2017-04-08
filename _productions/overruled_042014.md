@@ -24,9 +24,9 @@ cast:
   role: Mr. Lunn
 
 images:
-  - url: /assets/images/IMG_0625.jpg
-  - url: /assets/images/IMG_0656b.jpg
-  - url: /assets/images/IMG_0719.jpg
-  - url: /assets/images/IMG_0756.jpg
-  - url: /assets/images/IMG_0743.jpg
+  - url: /assets/images/IMG_0625.JPG
+  - url: /assets/images/IMG_0656b.JPG
+  - url: /assets/images/IMG_0719.JPG
+  - url: /assets/images/IMG_0756.JPG
+  - url: /assets/images/IMG_0743.JPG
 ---

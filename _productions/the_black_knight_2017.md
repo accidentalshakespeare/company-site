@@ -7,7 +7,7 @@ location: Stage 773, Chicago
 description: The world premiere of The Black Knight, an original work by the Accidental Shakespeare Theater Company's Artistic Director, Angeli Primlani.
 synopsis: A love story between a Jewish spy and SS Captain of the Intelligence Division set in Prague during the height of the Nazi occupation during World War II. This world premiere play by Angeli Primlani was performed as a staged reading.
 page_author: The Accidental Shakespeare Theater Company
-feature-img: Black_Knight_dancing.jpg
+feature-img: Black_Knight_dancing.JPG
 
 production:
   - name: Angeli Primlani
@@ -28,7 +28,7 @@ cast:
     actor_bio_url: /company/julia_kessler
 
 images:
-  - url: /assets/images/Black_Knight_dancing.jpg
-  - url: /assets/images/Black_Knight_Michael_Rashid_solo.jpg
+  - url: /assets/images/Black_Knight_dancing.JPG
+  - url: /assets/images/Black_Knight_Michael_Rashid_solo.JPG
   - url: /assets/images/black-knight-poster.png
 ---
