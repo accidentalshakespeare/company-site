@@ -32,5 +32,5 @@ cast:
   role: Madame Pernelle
 
 images:
-  - url: /assets/images/Tartuff.JPG
+  - url: /assets/images/Tartuffe.JPG
 ---
