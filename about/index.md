@@ -9,7 +9,7 @@ main-staff:
     synopsis: Angeli Primlani has directed several productions for Accidental Shakespeare, such as The Tempest, Overruled and Macbeth. Angeli has worked in regional theaters in the Southeast and in the Czech Republic.  She's also an accomplished writer and a playwright, whose work has been performed in Chicago by Rasaka and Otherworld Theater Company. She received the 3 Arts Ragdale Fellowship in Theater Arts in 2010. Angeli holds a BA in Theatre and English from the University of North Carolina at Chapel Hill anda Masters in Journalism from Northwestern.
   - name: Sherry Legare
     role: Managing Director, CoFounder, SAG-AFTRA, EMC
-    image-path: /assets/images/Sherry_Legare.JPG
+    image-path: /assets/images/SherryLegare.JPG
     bio-url:
     synopsis: Sherry Legare has performed as Mrs. Lynnin Overruled, Lady M in Macbeth and Anna in Boston Marriage. Sherry has also performed for Artemisia,Artists’ Ensemble, Halcyon,Two Pence, Muse of Fire,Red Tape, and Spectralia theatres.  Training credits include the Gately-Poole Conservatory, Shakespeare & Company, the Acting Tank, Artistic Home  and Actor’s Movement Studio. Sherry holds a BA in Theatre from the University of Colorado at Boulder.
 other-staff:

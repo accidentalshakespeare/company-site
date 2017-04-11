@@ -26,9 +26,10 @@ cast:
   role: Mr. Lunn
 
 images:
+  - url: /assets/images/Overruledposter_Remount_2b.JPG
   - url: /assets/images/overruled_Poster_RemountCefalu.2b.JPG
   - url: /assets/images/Overruled_Chief_O_neills.JPG
-  - url: /assets/images/Full_Cast_2_Overruled_Chief_Oneills.JPG
+  - url: /assets/images/FullCast2_Overruled_Chief_Oneills.JPG
   - url: /assets/images/Julia_Kessler_Overruled_Chief_Oneill.JPG
   - url: /assets/images/Raker_Wilson_Overruled_Chief_O_neills.JPG
 ---
