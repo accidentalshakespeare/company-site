@@ -15,6 +15,9 @@
   width: 600px;
 }
 
+.production-title {
+  margin-bottom: 0px;
+}
 
 .prod-wrap {
   -webkit-flex: none;

@@ -66,7 +66,6 @@ images:
   - url: /assets/images/IMG_7963b.jpg
   - url: /assets/images/IMG_8087.jpg
   - url: /assets/images/IMG_8238.jpg
-  - url: /assets/images/IMG_8138.jpg
   - url: /assets/images/rally.jpg
 
 ---
