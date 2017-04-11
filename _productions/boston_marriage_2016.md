@@ -35,8 +35,8 @@ cast:
 
 images:
   - url: /assets/images/surprisedSherry.JPG
-  - url: /assets/images/IMG_7931b.JPG
-  - url: /assets/images/IMG_7945.JPG
-  - url: /assets/images/IMG_7939.JPG
+  - url: /assets/images/IMG7931b.JPG
+  - url: /assets/images/IMG7945.JPG
+  - url: /assets/images/IMG7939.JPG
 
 ---

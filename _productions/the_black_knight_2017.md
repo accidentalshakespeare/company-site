@@ -28,7 +28,7 @@ cast:
     actor_bio_url: /company/julia_kessler
 
 images:
-  - url: /assets/images/Black_Knight_dancing.JPG
-  - url: /assets/images/Black_Knight_Michael_Rashid_solo.JPG
+  - url: /assets/images/BlackKnightdancing.JPG
+  - url: /assets/images/BlackKnightMichaelRashid_solo.JPG
   - url: /assets/images/black-knight-poster.png
 ---

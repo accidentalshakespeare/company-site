@@ -61,10 +61,11 @@ cast:
   role: Macduff
 
 images:
-  - url: /assets/images/IMG_8138.JPG
-  - url: /assets/images/IMG_7942b.JPG
-  - url: /assets/images/IMG_7963b.JPG
-  - url: /assets/images/IMG_8087.JPG
-  - url: /assets/images/IMG_8238.JPG
+  - url: /assets/images/IMG8138.JPG
+  - url: /assets/images/IMG7942b.JPG
+  - url: /assets/images/IMG7963b.JPG
+  - url: /assets/images/IMG8087.JPG
+  - url: /assets/images/IMG8092.JPG
+  - url: /assets/images/IMG8238.JPG
   - url: /assets/images/rally.JPG
 ---
