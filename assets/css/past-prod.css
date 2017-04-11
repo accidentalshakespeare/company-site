@@ -15,6 +15,9 @@
   width: 600px;
 }
 
+.production-title {
+  margin-bottom: 0px;
+}
 
 .prod-wrap {
   -webkit-flex: none;
@@ -24,7 +27,6 @@
 
 .production-container {
   text-align: center;
-
 }
 
 .prod-links {
@@ -41,7 +43,6 @@
    -webkit-text-stroke-color: black;
 }
 
-
 .screen {
   background-color: white;
   z-index: 2;
@@ -53,46 +54,15 @@
   align-items: center;
 }
 
-.mission-statement, .upcoming-events, .reviews {
-  text-align: center;
-}
-
 .page-synopsis {
   padding-top: 30px;
   font-weight: 700;
-}
-
-
-
-.homepage-title {
-  font-size: 60px;
-}
-
-.homepage-paragraph {
-  font-size: 18px;
-}
-
-.review-title {
-  font-size: 26px;
-}
-
-.review-paragraph {
-  font-size: 20px;
 }
 
 .actor-name, .actor-name a {
   font-size: 22px;
   color: inherit;
   text-decoration: none;
-}
-
-.btn-home {
-  height: 25%;
-  font-size: 20px;
-}
-
-.block-spacing {
-  padding-bottom: 80px;
 }
 
 .production-post ul li {
