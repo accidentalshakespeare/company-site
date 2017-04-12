@@ -37,12 +37,12 @@ cast:
 - actor: Eliza Hoffman
   role: Ursula
 
-  images:
-  - url: /assets/images/Much_Ado_fullcast_singing.jpg
-  - url: /assets/images/Much_Ado_JohnAmedio.jpg
-  - url: /assets/images/Much_Ado_JohnAmedio_Ryan.jpg
-  - url: /assets/images/Much_Ado_Julia_Christa_Masks.jpg
-  - url: /assets/images/Much_Ado_Julia_Swikle.jpg
+images:
+  - url: /assets/images/MuchAdo_fullcast_singing.JPG
+  - url: /assets/images/MuchAdo_johnamedio_angeli.JPG
+  - url: /assets/images/MuchAdo_JohnAmedio_Ryan.JPG
+  - url: /assets/images/MuchAdo_Julia_Christa_Masks.JPG
+  - url: /assets/images/MuchAdo_Ryan_Julia_Swikle.JPG
 ---
 
 

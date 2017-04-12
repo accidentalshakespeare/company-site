@@ -32,9 +32,10 @@ cast:
 - actor: Jeff Kurysz
   role: DuBois
 
-  images:
-  - url: /assets/images/Hell_stagedreading_Oct8_2016_Accidental_Shakespeare.jpg
-  - url: /assets/images/IMG_3108.jpg
-  - url: /assets/images/IMG_3148.jpg
-  - url: /assets/images/IMG_3121.jpg
+images:
+  - url: /assets/images/IMG7150.JPG
+  - url: /assets/images/IMG7148.JPG
+  - url: /assets/images/IMG7149.JPG  
+  - url: /assets/images/IMG7142.JPG
+  - url: /assets/images/IMG7180.JPG
 ---
