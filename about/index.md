@@ -45,10 +45,6 @@ board-members:
     title: President
     bio-url:
     affiliation: Hoosier Mama Pie Company
-  - name: Leala Advich
-    title: Vice President
-    bio-url:
-    affiliation: American Hospital Association
   - name: Jim Campbell
     title: Treasurer
     bio-url:
