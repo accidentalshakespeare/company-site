@@ -73,6 +73,10 @@
   list-style-type: none;
 }
 
+.hide-bullets li {
+  margin: 20px;
+}
+
 .thumbnail {
   margin-top: 20px;
   margin-left: -45px;
