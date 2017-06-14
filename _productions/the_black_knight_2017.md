@@ -11,13 +11,21 @@ feature-img: Black_Knight_dancing.JPG
 
 production:
   - name: Angeli Primlani
+    bio_url: /company/angeli_primlani
     title: Director
-
+  - name: Stacey Hanlon
+    title: Sound Design
+  - name: Catherine Cefalu
+    bio_url: /company/cat_cefalu/
+    title: Props Design
+  - name: Benjamin Dionysus  
+    bio_url: /company/benjamin_dionysus
+    title: Lighting Design
 cast:
   - actor: Chris Aruffo
     role: Radio Announcer
     actor_bio_url: /company/chris_aruffo
-  - actor: Taylor Galloway
+  - actor: Taylor Galloway 
     role: Henza, and others
   - actor: Gary Henderson
     role: Albrecht
