@@ -30,11 +30,11 @@ staff:
     bio-url:
   - name: Stacey Hanlon
     title: Company Member
-    image-path: /assets/images/accidental-shakespeare-logo.png
+    image-path: /assets/images/missingPhoto.jpg
     bio-url:
   - name: Gary Henderson
     title: Company Member
-    image-path: /assets/images/accidental-shakespeare-logo.png
+    image-path: /assets/images/missingPhoto.jpg
     bio-url:
 
 guest-artists: 
