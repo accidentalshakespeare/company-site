@@ -18,6 +18,12 @@
 	float: left;
 	padding-right: 30px;
 }
+.about-photo {
+	max-height: 90%;
+	max-width: 80%;
+    display: block;
+    margin: 0 auto;
+}
 
 .bio {
 	font-size: 23px;
