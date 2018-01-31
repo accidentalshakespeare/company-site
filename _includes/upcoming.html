@@ -1,11 +1,25 @@
 {% for event in site.upcoming %}
   <div class="upcoming-item">
     <!-- <img src=""> -->
-    <h3 class="homepage-paragraph">{{ event.title }}</h3>
+    <h3>{{ event.description }}</h3>
+    <h1 class="upcoming-item">{{ event.title }}</h1>
+    <h3 class="homepage-paragraph">{{ event.date_string }}</h3>
+    {% for event_image in event.event_image %}
+      {% if event_image.url %}
+        <img src="{{ event_image.url }}" />
+      {% endif %}
+    {% endfor %}
+    <div class="homepage-paragraph"> {{ event.content }} </div>
   </div>
   {% for tickets in event.tickets %}
     {% if tickets.code %}
       <a href="http://www.brownpapertickets.com/event/{{ tickets.code }}"><img src="http://www.brownpapertickets.com/g/6/BPT_buy_tickets_small.png" width=108px height=58px border=0></A>
+    {% endif %}
+  {% endfor %}
+  {% for 773tickets in event.773tickets %}
+    {% if 773tickets.code %}
+      <a href="https://www.stage773.com/show/{{ 773tickets.code }}"><img src="assets/images/stage-773.png" width=258px height=105px border=4></A>
+      <h4><p class="homepage-paragraph">You may purchase tickets through the Stage 773 website.</p></h4>
     {% endif %}
   {% endfor %}
 {% endfor %}
