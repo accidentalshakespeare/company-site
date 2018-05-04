@@ -1,11 +1,13 @@
 /*Navbar*/
 
+/*
 .navbar {
   background-color: white !important;
   border: none !important;
   padding-left: 80px;
   padding-right: 80px;
 }
+
 
 .container {
   font-family: 'Cormorant Garamond', serif;
@@ -37,13 +39,14 @@
   margin-left: 230px;
 }
 
+/*
 .navbar-links {
   font-size: 21px;
   margin-top: 85px;
   font-family: 'Cormorant Garamond', serif;
   font-weight: 700;
   transition: .4s;
-}
+} 
 
 .navbar-links a:hover {
   background-color: white !important;
@@ -86,6 +89,8 @@
 .donation-field {
   padding-bottom: 18px;
 }
+
+*/
 
 /*Body*/
 body {

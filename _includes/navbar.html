@@ -1,28 +1,49 @@
-<nav class="navbar">
-  <!--<div class="container">-->
-    <div class="navbar-header">
-      <button id="menu-button" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <div class="logo-container">
-        <div class="title">
-          <a class="navbar-brand header-title block-level" href="/">Accidental</a><br>
-          <a class="navbar-brand header-title shakespeare" href="/">Shakespeare</a>
+<nav class="navbar is-transparent">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="https://accidentalshakespeare.org">
+      <img src="/assets/images/LogoVectors.svg" alt="Accidental Shakespeare" width="56" height="56">
+    </a>
+    <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <div id="navbarExampleTransparentExample" class="navbar-menu">
+    <div class="navbar-start">
+    </div>
+  </div>
+</div>
+
+<div class="navbar-end">
+    <a class="navbar-item" href="https://accidentalshakespeare.org/">Home</a>
+      <a class="navbar-item" href="/past-productions">Productions</a>
+      <a class="navbar-item" href="/about">About Us</a>
+      <a class="navbar-item" href="/sponsors">Sponsors</a>
+      <a class="navbar-item" href="/donate">Donate</a>
+      <div class="navbar-item">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="button is-light" data-social-network="Twitter" data-social-action="tweet" data-social-target="http://localhost:4000" target="_blank" href="https://twitter.com/accshakes">
+              <span class="icon">
+                <i class="fab fa-twitter"></i>
+              </span>
+              <span>
+                Tweet
+              </span>
+            </a>
+          </p>
+          <p class="control">
+            <a class="button is-light" href="https://facebook.com/accshakes">
+              <span class="icon">
+                <i class="fab fa-facebook"></i>
+              </span>
+              <span>Facebook</span>
+            </a>
+          </p>
         </div>
-        <img class="logo" src="/assets/images/LogoVectors.svg"/>
       </div>
     </div>
-    <div class="collapse navbar-collapse" id="bs-navbar-collapse">
-      <ul class="nav navbar-nav navbar-right float-right">
-        <li><a href="/">Home</a></li>
-        <li><a href="/past-productions">Productions</a></li>
-        <li><a href="/about">About Us</a></li>
-        <li><a href="/sponsors">Sponsors</a></li>
-        <li><a href="/donate">Donate</a></li>
-      </ul>
-    </div>
-  <!--</div>-->
+  </div>
 </nav>
