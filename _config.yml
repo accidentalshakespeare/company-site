@@ -21,6 +21,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://accidentalshakespeare.com" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: :path/
 
+version:
+  bulma: 0.7.1 # This depend on "cdnjs.com"
+  font-awesome: 5.0.12 # This depend on "use.fontawesome.com", also name version it without "v" prefix.
+
 # For Facebook Open Graph
 og_image: assets/images/accidental-shakespeare-logo.png # Default image for Open Graph tag
 og_image_type: image/png
