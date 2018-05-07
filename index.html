@@ -3,50 +3,50 @@ layout: default
 permalink: "/"
 ---
 
-<div id="main_area">
-<div class="row">
-  <div class="col-xs-12" id="slider">
-      <!-- Top part of the slider -->
-      <div class="row carousel-block">
-          <div class="col-sm-8" id="carousel-bounding-box">
-            <div class="carousel slide" id="myCarousel">
-            <!-- Carousel items -->
-              <div class="carousel-inner">
-                  <div class="active item" data-slide-number="0">
-                    <img src="/assets/images/IMG0656.JPG">
-                  </div>
-
-                  <div class="item" data-slide-number="1">
-                    <img src="/assets/images/IMG7931.JPG">
-                  </div>
-
-                  <div class="item" data-slide-number="2">
-                    <img src="/assets/images/IMG7942.JPG">
-                  </div>
-
-                  <div class="item" data-slide-number="3">
-                    <img src="/assets/images/IMG7963.JPG">
-                  </div>
-
-                  <div class="item" data-slide-number="4">
-                    <img src="/assets/images/P1010490.JPG">
-                  </div>
-
-                  <div class="item" data-slide-number="5">
-                    <img src="/assets/images/P1010548.JPG">
-                  </div>
-              </div><!-- Carousel nav -->
-              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left"></span>
-              </a>
-              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right"></span>
-              </a>
-          </div>
+<div class="container">
+<div class="hero is-medium has-carousel">
+<div class='carousel carousel-animated carousel-animate-slide' data-autoplay="true">
+  <div class='carousel-container'>
+    <div class='carousel-item has-background is-active'>
+      <img class="is-background image is-950x600" src="/assets/images/IMG0656.JPG" alt=""/>
+    </div>
+    <div class='carousel-item has-background'>
+      <img class="is-background image is-950x600" src="/assets/images/IMG7931.JPG" alt=""/>
+    </div>
+    <div class='carousel-item has-background'>
+      <img class="is-background image is-950x600" src="/assets/images/IMG7942.JPG" alt=""/>
+    </div>
+    <div class='carousel-item has-background'>
+      <img class="is-background image is-950x600" src="/assets/images/IMG7963.JPG" alt=""/>
+    </div>
+    <div class='carousel-item has-background'>
+      <img class="is-background image is-950x600" src="/assets/images/P1010490.JPG" alt=""/>
+    </div>
+  </div>
+  <div class="carousel-navigation is-centered">
+    <div class="carousel-nav-left">
+      <i class="fa fa-chevron-left" aria-hidden="true"></i>
+    </div>
+    <div class="carousel-nav-right">
+      <i class="fa fa-chevron-right" aria-hidden="true"></i>
+    </div>
+  </div>
+</div>
+<div class="hero-body has-text-centered">
+  <div class="columns is-mobile is-centered">
+    <div class="column is-half is-narrow">
+      <div class="field has-addons">
+        <div class="control is-expanded">
+          <input class="input" type="text" placeholder="Find a repository">
+        </div>
+        <div class="control">
+          <a class="button is-info">
+            Search
+          </a>
         </div>
       </div>
     </div>
-  </div><!--/Slider-->
+  </div>
 </div>
 
 <div class="homepage-content">
@@ -66,4 +66,6 @@ permalink: "/"
     <h2 class="homepage-title">Reviews and Testimonials</h2>
       {% include reviews.html %}
   </div>
+</div>
+</div>
 </div>
