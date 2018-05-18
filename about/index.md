@@ -5,7 +5,7 @@ photo:
   - alt: Main Banner
     image-path: /assets/images/facebookBanner.3b.jpg
 
-staff:
+member:
   - name: Angeli Primlani
     title: Artistic Director, CoFounder, EMC
     image-path: /assets/images/AngeliPrimlani.JPG
@@ -56,11 +56,11 @@ board-members:
   - name: Jim Campbell
     title: Treasurer
     bio-url:
-    affiliation: Northwestern Memorial HealthCare
+    affiliation: DRW
   - name: Danielle Aeschbacher
     title: Member
     bio-url:
-    affiliation: Northwestern University, Basic Sciences Division
+    affiliation: Northwestern University
   - name: Richard Hess
     title: Member
     bio-url:

@@ -1,56 +1,94 @@
 ---
 layout: default
 ---
-<div id="about-us-container">
-    <h1 class="center-under">Meet our Company!</h1>
-    <div id="main-directors-list">
-        <ul class="img-row">
-            <div class="img-row-item">
-             
-	{% for photo in page.photo %}
-	<img src="{{photo.image-path}}" alt="{{photo.alt}}" class="about-photo">
-   {% endfor %}
-            </div> 
-        </ul>
+
+<!--Section for Company Photo -->
+<section id="company-photo" class="hero">
+    <div class="hero-head">
+        <div class="container has-text-centered">
+            <p class="title is-2 upper">
+                Meet our Company!
+            </p>
+        </div>
     </div>
-    <div id="staff-list">
-        <ul class="staff-list">
-        {% for staff in page.staff %}
-            <li class="staff-row">
-                <img class="people-img2" src="{{staff.image-path}}" alt="{{staff.name}}">
-                <div class="staff-people-info">
-                    {% if staff.bio-url %}
-                        <h3><a href="{{staff.bio-url}}">{{staff.name}}</a></h3>
-                    {% else %}
-                        <h3>{{staff.name}}</h3>
-                    {% endif %}
-                    <p>{{staff.title}}</p>
-                </div>
-            </li>
-        {% endfor %}
-        </ul>
-    </div>
-    <div id="artist-list">
-        <h2 class="artist-header">Meet our Fantastic Guest Artists</h2>
-        <ul>
-            {% for artist in page.guest-artists %}
-            <li class="artist-item">
-                <h3>{{artist.name}}</h3>
-                <p>{{artist.title}}</p>
+    <div class="hero-body has-text-centered">
+        <div class="container">
+            {% for photo in page.photo %}
+            <img src="{{photo.image-path}}" alt="{{photo.alt}}" class="about-photo">
             {% endfor %}
-            </li>
-        </ul>    
+        </div>  
+    </div>
+</section>
+
+<!--Section for Company Roster -->
+<section id="company" class="hero is-dark">
+    <div class="container">
+        <div class="hero-body has-text-centered">
+                <div class="columns is-multiline is-desktop">
+                        {% for member in page.member %}
+                        <div class="column is-6">
+                            <figure class="image">
+                              <img src="{{member.image-path}}" alt="{{member.name}}">
+                            </figure>
+                            <div>
+                                {% if member.bio-url %}
+                                    <h3 class="title is-3 is-capitalized">><a href="{{member.bio-url}}">{{member.name}}</a></h3>
+                                {% else %}
+                                    <h3 class="title is-3 is-capitalized">{{member.name}}</h3>
+                                {% endif %}
+                                    <h4 class="subtitle is-4">{{member.title}}</h4>
+                            </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>  
+        </div>
+    </section>
+
+<!--Section for Guest Artists -->
+<section id="guest-artists" class="hero is-light">
+    <div class="container">
+        <div class="hero-head has-text-centered">
+            <p class="title is-2 upper">
+                Meet our Fantastic Guest Artists
+            </p>
+        </div>
     </div>
 
-    <div id="directors-table">
-        <h2 class="center-under">And Our Amazing Board of Directors</h2>
-        <ul>
-        {% for board in page.board-members %}
-            <li class="directors-item">
-                <h3> {{board.name}} | {{board.title}} </h3>
-                <p>{{board.affiliation}}</p>
-            </li>
-        {% endfor %}
-        </ul>
+    <div class="container has-text-centered">
+        <div class="hero-body">
+            <div class="columns is-multiline is-desktop">
+                {% for artist in page.guest-artists %}
+                <div class="column is-4">
+                    <h3 class="title is-3 is-capitalized">{{artist.name}}</h3>
+                    <h4 class="subtitle is-4">{{artist.title}}</h4>
+                </div>
+                {% endfor %}
+            </div>
+        </div>  
     </div>
-</div>
+</section>
+
+<!--Section for Board of Directors -->
+<section id="board" class="hero is-dark">
+    <div class="container">
+        <div class="hero-head has-text-centered">
+            <p class="title is-2 upper">
+                And Our Amazing Board of Directors
+            </p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="hero-body has-text-centered">
+            <div class="columns is-multiline is-desktop">
+                {% for board in page.board-members %}
+                <div class="column is-4">
+                    <h4 class="title is-4 is-capitalized">{{board.name}} | {{board.title}}</h4>
+                    <h6 class="subtitle is-4">{{board.affiliation}}</h6>
+                </div>
+                {% endfor %}
+            </div>
+        </div>  
+    </div>
+</section>

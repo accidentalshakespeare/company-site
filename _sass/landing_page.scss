@@ -1,0 +1,69 @@
+/*The below is for the Landing (i.e. Home / Game+About) Page only*/
+#landing-page {
+
+    #club-section{
+
+        &.columns{ /* For the grid making up the entirety of the game section */
+            margin-bottom: 0px;
+        }
+
+        #club-join-sponsor {
+            .hero-body {
+                background-image: url("./assets/landingpage/qubo_in_pool.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+                background-attachment: fixed;
+            }
+        }
+    }
+    #about{
+        @extend .primary-dark-link;
+        .hero-body{
+            .title{
+                /*The nth-child(1n+2) below is so the margin top only applies to elements after the first.
+                Note that "1n" is used instead of "n" in order to support old Android browsers.*/
+                &.is-spaced:nth-child(1n+2){
+                    margin-top: 50px;
+                }
+            }
+            .video{
+                margin-top: 50px;
+                iframe{
+                    width: 100%;
+                    @include mobile{/* < 768px width*/
+                        height: 432px;
+
+                        @media screen and (max-width: 480px){/* special case for most mobile devices */
+                            height: 240px;
+                        }
+                    }
+                    @include tablet-only{/* from 769px until 999px width */
+                        height: 480px;
+                    }
+                    @include desktop{/* >= 1192px width*/
+                        height: 512px;
+                    }
+                }
+            }
+        }
+    }
+    #team{
+        .team-member{
+            margin-bottom: 32px;
+        }
+    }
+    #sponsors{
+        @extend .primary-dark-link;
+    }
+    .team-photo{
+        text-align: center;
+        display: inline-block;
+        @include mobile{
+            padding: 1%;
+        }
+        @include desktop{
+            max-width: 50%;
+        }
+    }
+}   
