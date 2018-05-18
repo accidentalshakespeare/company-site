@@ -3,19 +3,21 @@ layout: default
 ---
 
 <!--Section for Company Photo -->
-<section id="company-photo" class="hero">
-    <div class="hero-head">
-        <div class="container has-text-centered">
+<section id="company-photo" class="hero is-dark">
+    <div class="container has-text-centered">
+        <div class="hero-head">
             <p class="title is-2 upper">
                 Meet our Company!
             </p>
         </div>
     </div>
-    <div class="hero-body has-text-centered">
-        <div class="container">
+    <div class="container">
+        <div class="hero-body has-text-centered">
             {% for photo in page.photo %}
-            <img src="{{photo.image-path}}" alt="{{photo.alt}}" class="about-photo">
-            {% endfor %}
+            <figure class="image">
+                <img src="{{photo.image-path}}" alt="{{photo.alt}}" class="about-photo">
+            </figure>
+        {% endfor %}
         </div>  
     </div>
 </section>
@@ -26,7 +28,7 @@ layout: default
         <div class="hero-body has-text-centered">
                 <div class="columns is-multiline is-desktop">
                         {% for member in page.member %}
-                        <div class="column is-6">
+                        <div class="column is-4">
                             <figure class="image">
                               <img src="{{member.image-path}}" alt="{{member.name}}">
                             </figure>
@@ -46,7 +48,7 @@ layout: default
     </section>
 
 <!--Section for Guest Artists -->
-<section id="guest-artists" class="hero is-light">
+<section id="guest-artists" class="hero is-dark">
     <div class="container">
         <div class="hero-head has-text-centered">
             <p class="title is-2 upper">
@@ -92,3 +94,4 @@ layout: default
         </div>  
     </div>
 </section>
+
