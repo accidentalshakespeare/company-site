@@ -26,7 +26,7 @@ layout: default
 <section id="company" class="hero is-dark">
     <div class="container">
         <div class="hero-body has-text-centered">
-                <div class="columns is-multiline is-desktop">
+                <div class="columns is-multiline is-desktop is-centered">
                         {% for member in page.member %}
                         <div class="column is-4">
                             <figure class="image">
@@ -57,9 +57,9 @@ layout: default
         </div>
     </div>
 
-    <div class="container has-text-centered">
-        <div class="hero-body">
-            <div class="columns is-multiline is-desktop">
+    <div class="container">
+        <div class="hero-body has-text-centered">
+            <div class="columns is-multiline is-desktop is-centered">
                 {% for artist in page.guest-artists %}
                 <div class="column is-4">
                     <h3 class="title is-3 is-capitalized">{{artist.name}}</h3>
@@ -83,7 +83,7 @@ layout: default
 
     <div class="container">
         <div class="hero-body has-text-centered">
-            <div class="columns is-multiline is-desktop">
+            <div class="columns is-multiline is-desktop is-centered">
                 {% for board in page.board-members %}
                 <div class="column is-4">
                     <h4 class="title is-4 is-capitalized">{{board.name}} | {{board.title}}</h4>

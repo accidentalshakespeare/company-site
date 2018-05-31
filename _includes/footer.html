@@ -1,21 +1,23 @@
-  <div class="container">
+<section id="footer" class="is-dark">
+<div class="container">
+  <footer class="footer">
     <div class="columns">
       <div class="column is-3">
-        <h5>About us</h5>
+        <h5 class="title is-5 upper">About us</h5>
         <ul>
-          <li><a href="/about">Company / Staff</a></li>
-          <li><a href="/about">Guest Artists</a></li>
+          <li><strong><a href="/about">Company / Staff</a></strong></li>
+          <li><strong><a href="/about">Guest Artists</a></strong></li>
         </ul>
       </div>
       <div class="column is-3">
-        <h5>Sponsors</h5>
+        <h5 class="title is-5 upper">Sponsors</h5>
         <ul>
-          <li><a href="/sponsors">Become a Sponsor</a></li>
-          <li><a href="/sponsors#current-sponsors-list">Current Sponsors</a></li>
+          <li><strong><a href="/sponsors">Become a Sponsor</a></strong></li>
+          <li><strong><a href="/sponsors#current-sponsors-list">Current Sponsors</a></strong></li>
         </ul>
       </div>
       <div class="column is-3">
-        <h5>Connect With Us!</h5>
+        <h5 class="title is-5 upper">Connect With Us!</h5>
         <div class="social-networks">
           <a href="https://www.facebook.com/AccShakes" class="facebook"><i class="fab fa-facebook"></i></a>
           <a href="https://twitter.com/accshakes" class="twitter"><i class="fab fa-twitter"></i></a>
@@ -23,25 +25,29 @@
         </div>
       </div>
       <div class="column is-3">
-        <h5>Newsletter</h5>
+        <h5 class="title is-5 upper">Newsletter</h5>
+
         <form class="form-inline" action="//accidentalshakespeare.us8.list-manage.com/subscribe/post?u=62e153225217fde3b5c71b8f9&amp;id=77a38c823e"
           method="post" name="mc-embedded-subscribe-form" target="_blank">
 				<input id="mce-MMERGE11" type="hidden" name="MMERGE11" value="WEBSITE" />
+        <div class="field is-grouped">
+          <input class="control input is-dark" type="text" name="FNAME" placeholder="first name" value="" size="35"/>
+        </div>
+        
+        <div class="field is-grouped">		
+          <input class="control input is-dark" type="text" name="LNAME" placeholder="last name" value="" size="35"/>
+        </div>
 
-          <div class="field-group">
-            <input id="newsletter-email" class="form-control input-sm newsletter-input" type="email" name="EMAIL" placeholder="enter email" value="" size="35"/>
-					</div>
-					<div class="field-group">
-            <input class="form-control input-sm newsletter-input" type="text" name="FNAME" placeholder="first name" value="" size="35"/>
-					</div>
-					<div class="field-group">		
-            <input class="form-control input-sm newsletter-input" type="text" name="LNAME" placeholder="last name" value="" size="35"/>
-            <input id="mc-embedded-subscribe" class="btn btn-default" type="submit" name="subscribe" value="Subscribe" />
+          <div class="field is-grouped">
+            <input id="newsletter-email" class="control input is-dark" type="email" name="EMAIL" placeholder="enter email" value="" size="35"/>
           </div>
+          <input id="mc-embedded-subscribe" class="button is-dark" type="submit" name="subscribe" value="Subscribe" />
         </form>
       </div>
     </div>
+    <div class="content has-text-centered">
+      <h6 class="title is-6 is-capitalized">© 2018 The Accidental Shakespeare Theater Company</h6>
+    </div>
+  </footer>
   </div>
-  <div class="footer-copyright">
-    <p>© 2018 Accidental Shakespeare</p>
-  </div>
+</section>
