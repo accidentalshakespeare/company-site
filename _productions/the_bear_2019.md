@@ -12,8 +12,12 @@ page_author: The Accidental Shakespeare Theater Company
 feature-img: checkhov2.jpg 
 
 production:
-  - name: Iris Sowlat and Eden Blattner 
-    title: Directors
+  - name: Iris Sowlat
+    title: Director, The Bear
+  - name: Michelle Altman
+    title: Assistant Director, The Bear
+  - name: Edent Blattner
+    title: Director, Three Sisters
 
 cast:
   - actor: Gary Henderson
