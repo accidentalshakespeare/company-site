@@ -12,9 +12,16 @@ page_author: The Accidental Shakespeare Theater Company
 feature-img: checkhov2.jpg 
 
 production:
-  - name: Eden Blattner and Iris Sowlat 
-    bio_url: 
+  - name: Iris Sowlat and Eden Blattner 
     title: Directors
+
+cast:
+  - actor: Gary Henderson
+    role: Grigory Stepanovitch Smirnov
+  - actor: Angeli Primlani
+    role: Luka
+  - actor: Sherry Legare
+    role: Elena Ivanovna Popova
 
 images:
   - url: /assets/images/chekhov2.jpg
