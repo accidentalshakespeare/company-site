@@ -56,8 +56,12 @@ layout: default
               {{ page.dates_string }} | {{page.location}}
             </span></b>
             <h4 class="page-synopsis">{{page.synopsis}}</h4>
+            {% if page.ticket_url %}
+            <h2>Tickets Available Now</h2>
+            <h4>Tickets are presently available through
+              <a href="{{page.ticket_url}}">{{page.ticket_desc}}</a></h4>
+            {% endif %}
           </div>
-
         </div>
       </div>
     </div><!--/Slider-->
@@ -93,6 +97,7 @@ layout: default
       </ul>
     </div>
     <div class="col-sm-12 col-md-6">
+      {% if page.cast > 1 %}
       <h2>Cast:</h2>
       <ul class="hide-bullets">
         {% for cast in page.cast %}
@@ -103,7 +108,7 @@ layout: default
           {% endif %}
         {% endfor %}
       </ul>
-      
+      {% endif %}
     </div>
     
     {{content}}
