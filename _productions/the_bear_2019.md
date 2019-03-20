@@ -23,7 +23,7 @@ cast:
   - actor: Gary Henderson
     role: Grigory Stepanovitch Smirnov
   - actor: Angeli Primlani
-    role: Luka
+    role: Lyusya 
   - actor: Sherry Legare
     role: Elena Ivanovna Popova
 
