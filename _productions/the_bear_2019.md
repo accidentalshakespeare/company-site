@@ -21,11 +21,25 @@ production:
 
 cast:
   - actor: Gary Henderson
-    role: Grigory Stepanovitch Smirnov
+    role: Grigory Stepanovitch Smirnov (The Bear)
   - actor: Angeli Primlani
-    role: Lyusya 
+    role: Lyusya (The Bear)
   - actor: Sherry Legare
-    role: Elena Ivanovna Popova
+    role: Elena Ivanovna Popova (The Bear)
+  - actor: Carol Melnick
+    role: Anfisa (Three Sisters)
+  - actor: Lindsey Zanatta
+    role: Olga (Three Sisters)
+  - actor: Brice Baron
+    role: Natalya (Three Sisters)
+  - actor: Grace DeSant
+    role: Mashsa (Three Sisters)
+  - actor: Jon Vaughn
+    role: Kulygin (Three Sisters)
+  - actor: Quinn Leary
+    role: Vershinin (Three Sisters)
+  - actor: Gary Henderson
+    role: Andrei (Three Sisters)
 
 images:
   - url: /assets/images/chekhov2.jpg
