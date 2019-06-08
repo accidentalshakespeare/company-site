@@ -38,6 +38,8 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+include:
+  - _redirects
 exclude:
   - Gemfile
   - Gemfile.lock
