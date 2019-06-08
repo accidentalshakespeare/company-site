@@ -1,0 +1,7 @@
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+https://accidentalshakespeare.com/* https://accidentalshakespeare.org/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://unruffled-khorana-2d3e36.netlify.com/* https://accidentalshakespeare.org/:splat 301!
